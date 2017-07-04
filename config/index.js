@@ -1,5 +1,5 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
-var path = require('path')
+const path = require('path');
 
 module.exports = {
   build: {
@@ -24,7 +24,7 @@ module.exports = {
   dev: {
     env: require('./dev.env'),
     port: 8080,
-    autoOpenBrowser: true,
+    autoOpenBrowser: false,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {},
@@ -35,4 +35,4 @@ module.exports = {
     // just be aware of this issue when enabling this option.
     cssSourceMap: false
   }
-}
+};
