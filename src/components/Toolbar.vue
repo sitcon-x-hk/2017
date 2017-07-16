@@ -10,8 +10,8 @@
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn :to="{name: 'home'}">Home</v-btn>
       <v-btn>About Us</v-btn>
+      <v-btn :to="{name: 'coc'}">Code Of Conduct</v-btn>
       <v-btn>Sponsorship</v-btn>
-      <v-btn></v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>
@@ -32,7 +32,7 @@
   .toolbar__title
     font-size: 2rem
 
-  .btn--active
+  .router-link-exact-active
     @extend .brand
 
   .btn

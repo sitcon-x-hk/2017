@@ -10,5 +10,10 @@ export default new Router({
       name: 'home',
       component: () => import('./components/Home.vue'),
     },
+    {
+      path: '/coc',
+      name: 'coc',
+      component: () => import('./components/Coc.vue'),
+    },
   ],
 });
