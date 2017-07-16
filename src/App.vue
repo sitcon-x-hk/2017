@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <toolbar />
+    <drawer v-if="isMobile" />
+    <toolbar :isMobile="isMobile" />
     <main>
       <v-container fluid>
         <router-view></router-view>
@@ -15,35 +16,6 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  name: 'app',
-  components: {
-    Toolbar: () => import('./components/Toolbar.vue'),
-  },
-};
-</script>
+<script src="./app.js"></script>
 
-<style lang="stylus">
-  @import '../node_modules/vuetify/src/stylus/settings/_colors.styl'
-
-  $theme := {
-    primary: #9D1F25
-    accent: #000
-    secondary: #fff
-    info: $blue.base
-    warning: $amber.base
-    error: $red.accent-2
-    success: $green.base
-  }
-
-  @import '../node_modules/vuetify/src/stylus/main.styl'
-
-  @media screen and (min-width: 769px)
-    .footer
-      position: fixed
-      bottom: 0
-      left: 0
-      width: 100%
-      z-index: 3
-</style>
+<style lang="stylus" src="./app.styl"></style>

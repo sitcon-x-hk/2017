@@ -1,6 +1,6 @@
 <template>
   <v-toolbar dark prominent>
-    <v-toolbar-side-icon class="hidden-md-and-up" />
+    <v-toolbar-side-icon v-if="isMobile" @click.native="openDrawer" />
     <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
     <v-toolbar-title>
       <span class="brand">SITCON x HK</span>
@@ -38,3 +38,23 @@
   .btn
     font-size: 1rem
 </style>
+
+<script>
+  import { mapMutations } from 'vuex';
+  import { TRIGGER_DRAWER } from '../store/mutations';
+
+  export default {
+    props: {
+      isMobile: Boolean,
+      drawer: Boolean,
+    },
+    methods: {
+      openDrawer() {
+        setTimeout(() => this.triggerDrawer(), 100);
+      },
+      ...mapMutations({
+        triggerDrawer: TRIGGER_DRAWER,
+      }),
+    },
+  };
+</script>
