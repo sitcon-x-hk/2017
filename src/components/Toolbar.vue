@@ -1,7 +1,7 @@
 <template>
   <v-toolbar dark prominent>
     <v-toolbar-side-icon class="hidden-md-and-up" />
-    <img id="logo" src="/2017/img/icons/logo.png">
+    <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
     <v-toolbar-title>
       <span class="brand">SITCON x HK</span>
       2017
@@ -11,6 +11,7 @@
       <v-btn :to="{name: 'home'}">Home</v-btn>
       <v-btn>About Us</v-btn>
       <v-btn>Sponsorship</v-btn>
+      <v-btn></v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>
