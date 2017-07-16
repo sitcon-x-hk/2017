@@ -7,11 +7,10 @@
       2017
     </v-toolbar-title>
     <v-spacer />
-    <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn :to="{name: 'home'}">Home</v-btn>
-      <v-btn>About Us</v-btn>
-      <v-btn :to="{name: 'coc'}">Code Of Conduct</v-btn>
-      <v-btn>Sponsorship</v-btn>
+    <v-toolbar-items v-if="!isMobile">
+      <v-btn v-for="nav in links" :key="nav.display" :to="nav.link">
+        {{ nav.display }}
+      </v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>
@@ -47,10 +46,11 @@
     props: {
       isMobile: Boolean,
       drawer: Boolean,
+      links: Array,
     },
     methods: {
       openDrawer() {
-        setTimeout(() => this.triggerDrawer(), 100);
+        setImmediate(() => this.triggerDrawer());
       },
       ...mapMutations({
         triggerDrawer: TRIGGER_DRAWER,

@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <drawer v-if="isMobile" />
-    <toolbar :isMobile="isMobile" />
+    <drawer v-if="isMobile" :links="links" />
+    <toolbar :isMobile="isMobile" :links="links" />
     <main>
       <v-container fluid>
         <router-view></router-view>

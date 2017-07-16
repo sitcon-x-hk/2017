@@ -7,6 +7,11 @@ export default {
   data() {
     return {
       width: window.innerWidth,
+      links: [
+        { link: { name: 'home' }, display: 'Home' },
+        { link: '#', display: 'Organizer' },
+        { link: { name: 'coc' }, display: 'Code of Conduct' },
+      ],
     };
   },
   methods: {
