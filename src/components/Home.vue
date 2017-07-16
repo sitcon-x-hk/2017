@@ -5,7 +5,7 @@
         <img src="/2017/img/background.jpg" />
       </div>
       <v-layout column align-center justify-center class="content">
-        <h2 class="white--text">SITCON x HK 2017</h2>
+        <h2 class="white--text hidden-sm-and-down">SITCON x HK 2017</h2>
         <p class="white--text">
           SITCON Student IT Conference, formed by students with passion in IT,
           a student-centered organisation hope to provide a stage for all Hong Kong students to express and develop their talent with Open Source.
@@ -23,54 +23,5 @@
   </div>
 </template>
 
-<style scoped lang="sass">
-  [data-page=home]
-    margin: -16px -16px
-
-  .card
-    padding: 1rem
-
-  .backdrop
-    position: relative
-    overflow: hidden
-    background-repeat: no-repeat
-    padding: 0
-    z-index: 0
-    height: 500px
-    margin: -16px -16px 0
-
-    .content
-      display: flex
-      flex-direction: column
-      color: #fff
-      height: 100%
-      z-index: 2
-      position: relative
-      justify-content: center
-      padding: 0 1rem
-      width: 80%
-      margin: auto
-      overflow: hidden
-      @media screen and (min-width: 576px)
-        p
-          text-align: center
-          font-size: 1.5rem
-    .background
-      position: absolute
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      z-index: 1
-
-      img
-        position: absolute
-        bottom: 0
-        left: 50%
-        min-width: 100%
-        min-height: 100%
-        display: block
-        transform: translate3d(-50%, 300px, 0px)
-        z-index: 1
-</style>
+<style scoped lang="sass" src="./home.sass"></style>
 
