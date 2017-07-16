@@ -8,17 +8,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: () => import('./components/home/Page.vue'),
+      component: () => import(/* webpackChunkName: "home" */ './components/home/Page.vue'),
     },
     {
       path: '/coc',
       name: 'coc',
-      component: () => import('./components/coc/Page.vue'),
+      component: () => import(/* webpackChunkName: "coc" */ './components/coc/Page.vue'),
     },
     {
       path: '/organizer',
       name: 'organizer',
-      component: () => import('./components/organizer/Page.vue'),
+      component: () => import(/* webpackChunkName: "organizer" */ './components/organizer/Page.vue'),
     },
   ],
 });

@@ -16,7 +16,7 @@
 <script>
   export default {
     components: {
-      Jumbotron: () => import('./Jumbotron.vue'),
+      Jumbotron: () => import(/* webpackChunkName: "home" */ './Jumbotron.vue'),
     },
   };
 </script>

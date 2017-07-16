@@ -1,8 +1,8 @@
 export default {
   name: 'app',
   components: {
-    Toolbar: () => import('./components/Toolbar.vue'),
-    Drawer: () => import('./components/Drawer.vue'),
+    Toolbar: () => import(/* webpackChunkName: "app" */ './components/Toolbar.vue'),
+    Drawer: () => import(/* webpackChunkName: "app" */ './components/Drawer.vue'),
   },
   data() {
     return {
