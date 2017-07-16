@@ -15,5 +15,10 @@ export default new Router({
       name: 'coc',
       component: () => import('./components/coc/Page.vue'),
     },
+    {
+      path: '/organizer',
+      name: 'organizer',
+      component: () => import('./components/organizer/Page.vue'),
+    },
   ],
 });

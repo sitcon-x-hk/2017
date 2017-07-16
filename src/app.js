@@ -9,7 +9,7 @@ export default {
       width: window.innerWidth,
       links: [
         { link: { name: 'home' }, display: 'Home' },
-        { link: '#', display: 'Organizer' },
+        { link: { name: 'organizer' }, display: 'Organizer' },
         { link: { name: 'coc' }, display: 'Code of Conduct' },
       ],
     };
