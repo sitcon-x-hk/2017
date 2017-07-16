@@ -10,6 +10,15 @@
         </p>
       </v-layout>
     </v-parallax>
+    <v-card class="blue-grey darken-2 white--text">
+      <v-card-title primary-title>
+        <div class="headline">Register for event</div>
+      </v-card-title>
+      <v-card-actions>
+        <v-spacer />
+        <v-btn flat dark>Register</v-btn>
+      </v-card-actions>
+    </v-card>
   </div>
 </template>
 
