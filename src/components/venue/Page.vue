@@ -16,7 +16,7 @@
   </v-card>
 </template>
 
-<style lang="sass">
+<style lang="sass" scoped>
   .card__text
     text-align: center
 </style>
