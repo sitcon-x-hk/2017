@@ -21,12 +21,15 @@
     width: 80%
     margin: auto
     overflow: hidden
+    text-align: center
 
-    div.headline
-      text-align: center
-      span
-        margin: 0 .2rem
-        display: inline-block
+    div.headline span
+      margin: 0 .2rem
+      display: inline-block
+
+    img
+      height: 200px
+      width: auto
   .background
     position: absolute
     top: 0
@@ -44,6 +47,7 @@
       display: block
       transform: translate3d(-50%, 300px, 0px)
       z-index: 1
-
+      @media screen and (max-width: 1180px)
+        transform: translate3d(-50%, 200px, 0px)
       @media screen and (max-width: 768px)
         transform: translate3d(-50%, 0, 0px)
