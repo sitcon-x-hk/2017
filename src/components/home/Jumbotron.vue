@@ -9,7 +9,7 @@
       <div class="headline">
         <span>
           <v-icon class="white--text">event</v-icon>
-          2 Oct 2017
+          2 Oct
         </span>
         <span>
           <v-icon class="white--text">location_on</v-icon>
