@@ -1,10 +1,14 @@
 <template>
   <v-toolbar dark prominent>
     <v-toolbar-side-icon v-if="isMobile" @click.native="openDrawer" />
-    <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
+    <router-link :to="{name: 'home'}" data-role="toolbar">
+      <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
+    </router-link>
     <v-toolbar-title>
-      <span class="brand">SITCON x HK</span>
-      2017
+      <router-link :to="{name: 'home'}" data-role="toolbar">
+        <span class="brand">SITCON x HK</span>
+        2017
+      </router-link>
     </v-toolbar-title>
     <v-spacer />
     <v-toolbar-items v-if="!isMobile">
@@ -22,20 +26,23 @@
     float: left
     width: 80px
     margin-top: -20px
+
   .brand
     color: lighten($theme-red, 5%) !important
     font-weight: bold
+
   .toolbar
     color: black
 
   .toolbar__title
     font-size: 2rem
 
-  .router-link-exact-active
-    @extend .brand
-
   .btn
     font-size: 1rem
+  a
+    text-decoration: none
+  [data-role=toolbar]
+    color: white
 </style>
 
 <script>

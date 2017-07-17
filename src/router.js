@@ -20,5 +20,10 @@ export default new Router({
       name: 'organizer',
       component: () => import(/* webpackChunkName: "organizer" */ './components/organizer/Page.vue'),
     },
+    {
+      path: '/venue',
+      name: 'venue',
+      component: () => import(/* webpackChunkName: "venue" */ './components/venue/Page.vue'),
+    },
   ],
 });

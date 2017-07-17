@@ -10,6 +10,7 @@ export default {
       links: [
         { link: { name: 'home' }, display: 'Home' },
         { link: { name: 'organizer' }, display: 'Organizer' },
+        { link: { name: 'venue' }, display: 'Venue' },
         { link: { name: 'coc' }, display: 'Code of Conduct' },
       ],
     };
