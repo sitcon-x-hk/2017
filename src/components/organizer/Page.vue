@@ -4,7 +4,7 @@
     <v-container grid-list-md fluid>
       <v-layout row wrap class="list-organizers">
         <v-flex xs12 v-for="organizer in organizers" :key="organizer.name">
-          <v-card>
+          <v-card light>
             <v-card-media :src="organizer.logo" height="300px" />
             <v-card-title primary-title>
               <h3 class="headline black--text">{{ organizer.name }}</h3>
@@ -13,11 +13,11 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <h4 class="black--text headline mt-5">Supporting Organizers</h4>
+    <h4 class="white--text headline mt-5">Supporting Organizers</h4>
     <v-container grid-list-md fluid>
       <v-layout row wrap class="list-supporting-organizers">
         <v-flex xs12 md6 lg6 v-for="organizer in supporting" :key="organizer.name">
-          <v-card>
+          <v-card light>
             <v-card-media :src="organizer.logo" height="200px" />
             <v-card-title primary-title>
               <h3 class="headline black--text">{{ organizer.name }}</h3>
