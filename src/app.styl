@@ -1,7 +1,9 @@
+$theme-red := #9D1F25
+$active-color := lighten(#9D1F25, 5%)
 @import '../node_modules/vuetify/src/stylus/settings/_colors.styl'
 
 $theme := {
-    primary: #9D1F25
+    primary: $theme-red
     accent: #000
     secondary: #fff
     info: $blue.base
@@ -21,5 +23,12 @@ $theme := {
     z-index: 3
 
 .router-link-exact-active
-  color: lighten(#9D1F25, 5%) !important
+  color: $active-color !important
   font-weight: bold
+
+.drawer-tile .router-link-exact-active
+  color: white !important
+  background-color: $active-color
+  &:hover
+    background-color: $theme-red
+
