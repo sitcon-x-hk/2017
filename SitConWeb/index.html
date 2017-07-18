@@ -56,7 +56,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar" id="myNavbar">
-        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <a class="w3-bar-item w3-button w3-hover-wood w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i>
         </a>
         <a href="#home" class="w3-bar-item w3-button">HOME</a>
@@ -64,6 +64,8 @@
         <a href="#timetable" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TIMETABLE</a>
         <a href="#photos" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PHOTOS</a>
         <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-search"></i> Register Event</a>
+
     </div>
 
     <!-- Navbar on small screens -->
@@ -72,6 +74,7 @@
         <a href="#timetable" class="w3-bar-item w3-button" onclick="toggleFunction()">TIMETABLE</a>
         <a href="#photos" class="w3-bar-item w3-button" onclick="toggleFunction()">PHOTOS</a>
         <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()">Register Event</a>
     </div>
 </div>
 
@@ -156,7 +159,7 @@
     <h3 class="w3-center">Supportive Orginizations</h3>
     <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
-            <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+            <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Organizer">
         </div>
     </div>
 
@@ -197,51 +200,51 @@
 <!-- Container (Functions Photos Section) -->
 <div class="w3-content w3-container w3-padding-64" id="photos">
     <h3 class="w3-center">FUNCTIONS PHOTOS</h3>
-    <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+    <!-- <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br> -->
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
-            <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+            <img src="img/photos/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+            <img src="img/photos/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+            <img src="img/photos/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+            <img src="img/photos/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
     </div>
 
     <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
-            <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+            <img src="img/photos/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+            <img src="img/photos/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+            <img src="img/photos/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
 
         <div class="w3-col m3">
-            <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+            <img src="img/photos/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SITCON x HK Functions Photo">
         </div>
-        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+        <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
     </div>
 </div>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <span class="w3-button-black w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-16">
         <img id="img01" class="w3-image">
         <p id="caption" class="w3-opacity w3-large"></p>
     </div>
