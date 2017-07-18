@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar light prominent>
+  <v-toolbar light prominent fixed absolute>
     <v-toolbar-side-icon v-if="isMobile" @click.native="openDrawer" />
     <router-link :to="{name: 'home'}" data-role="toolbar">
       <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
