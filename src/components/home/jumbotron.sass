@@ -1,3 +1,4 @@
+@import "../color"
 .backdrop
   position: relative
   overflow: hidden
@@ -6,6 +7,8 @@
   z-index: 0
   height: 500px
   margin: -16px -16px 0
+  @media screen and (max-width: 1024px)
+    margin: -16px 0 0
   @media screen and (max-width: 599px)
     margin: -24px 0 0
 
@@ -23,13 +26,21 @@
     overflow: hidden
     text-align: center
 
-    div.headline span
-      margin: 0 .2rem
-      display: inline-block
+    div.headline
+      background-color: rgba(255, 255, 255, 0.87)
+      span
+        margin: 0 .2rem
+        display: inline-block
+        color: #7c2618
+        .material-icons
+          color: #7c2618 !important
 
     img
       height: 200px
       width: auto
+    h3
+      background-color: #9C5C51 !important
+      padding: 12px 24px
   .background
     position: absolute
     top: 0
@@ -45,9 +56,9 @@
       min-width: 100%
       min-height: 100%
       display: block
-      transform: translate3d(-50%, 300px, 0px)
+      transform: translate3d(-50%, 500px, 0px)
       z-index: 1
       @media screen and (max-width: 1180px)
         transform: translate3d(-50%, 200px, 0px)
       @media screen and (max-width: 768px)
-        transform: translate3d(-50%, 0, 0px)
+        transform: translate3d(-70%, 200px, 0px)

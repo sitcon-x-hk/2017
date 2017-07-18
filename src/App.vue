@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app light>
     <drawer v-if="isMobile" :links="links" />
     <toolbar :isMobile="isMobile" :links="links" />
     <main>

@@ -1,7 +1,7 @@
 <template>
-  <v-card dark>
+  <v-card light>
     <v-card-title primary-title>
-      <h3 class="headline">Venue</h3>
+      <h3 class="headline black--text">Venue</h3>
     </v-card-title>
     <v-card-text>
       <iframe

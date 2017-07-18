@@ -2,7 +2,7 @@
   <v-navigation-drawer
         temporary
         v-model="drawer"
-        dark
+        light
   >
     <v-list dense>
       <v-list-tile :to="nav.link" v-for="nav in links" :key="nav.display" class="drawer-tile">

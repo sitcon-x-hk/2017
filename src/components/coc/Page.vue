@@ -3,7 +3,7 @@
     <v-flex xs12>
       <v-card>
         <v-card-title primary-title>
-          <div class="white--text headline">Code of Conduct</div>
+          <div class="headline">Code of Conduct</div>
         </v-card-title>
         <v-card-text>
           <p>
