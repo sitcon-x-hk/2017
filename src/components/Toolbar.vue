@@ -4,9 +4,18 @@
     <router-link :to="{name: 'home'}" data-role="toolbar">
       <img id="logo" src="/2017/img/icons/logo.png" class="hidden-xs-only">
     </router-link>
+    <router-link :to="{name: 'home'}" data-role="toolbar" class="brand hidden-md-and-up">
+      SITCON x HK 2017
+    </router-link>
     <v-toolbar-items v-if="!isMobile">
       <v-btn v-for="nav in links" :key="nav.display" :to="nav.link">
         {{ nav.display }}
+      </v-btn>
+    </v-toolbar-items>
+    <v-spacer />
+    <v-toolbar-items v-if="!isMobile">
+      <v-btn class="white--text primary" tag="a" href="#">
+        Get Ticket
       </v-btn>
     </v-toolbar-items>
   </v-toolbar>

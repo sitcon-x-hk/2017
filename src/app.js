@@ -3,6 +3,7 @@ export default {
   components: {
     Toolbar: () => import(/* webpackChunkName: "app" */ './components/Toolbar.vue'),
     Drawer: () => import(/* webpackChunkName: "app" */ './components/Drawer.vue'),
+    FooterSocial: () => import(/* webpackChunkName: "app" */ './components/Footer.vue'),
   },
   data() {
     return {

@@ -1,5 +1,7 @@
 $theme-red := #9D1F25
 $active-color := lighten(#9D1F25, 5%)
+
+$wood-red := #9C5C51
 @import '../node_modules/vuetify/src/stylus/settings/_colors.styl'
 
 $theme := {
@@ -20,3 +22,9 @@ $theme := {
 
 .drawer-tile .router-link-exact-active
   color: $active-color !important
+
+.wood-red
+  background-color $wood-red !important
+
+.wood-red--text
+  color: $wood-red !important

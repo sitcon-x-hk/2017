@@ -7,6 +7,7 @@
         <router-view></router-view>
       </v-container>
     </main>
+    <footer-social />
     <v-footer>
       <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/hk/">
         <img alt="Creative Commons Licence" src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
