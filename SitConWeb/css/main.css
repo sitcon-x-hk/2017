@@ -1,0 +1,153 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #F8F8F8;
+
+}
+
+/*global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*header*/
+header{
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 70px;
+    border-bottom: #E2E7D6 1px solid;
+}
+
+header img {
+    float: left;
+    width: 80px;
+    margin-top: -20px;
+}
+header a{
+    color: #ffffff;;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #9D1F25;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background: url('../img/sitconHK-conference.jpg') no-repeat 0 -200px;
+    background-size: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size: 55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#register{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#register h1{
+    float: left;
+}
+
+#register button {
+    float: right;
+    margin-top: 15px;
+    background-color: #888888;
+}
+
+/* box */
+
+#highlight {
+    margin-top: 20px;
+    align: center;
+}
+
+#highlight .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px;
+}
+
+#highlight .box img {
+    width: 200px;
+}
+
+#highlight .box p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+    font-size: 9px;
+}
+
+/* The Modal (background) */
+.wi-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
