@@ -23,6 +23,23 @@
         </div>
       </v-card-title>
     </v-card>
+    <v-card light flat>
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline primary--text">Code of Conduct</h3>
+          <p>
+            To provide a friendly environment in the conference, we have set up a Code of Conduct.
+            We hope you can follow the Code of Conduct.
+          </p>
+        </div>
+      </v-card-title>
+      <v-card-actions>
+        <v-spacer />
+        <v-btn primary :to="{name: 'coc'}">
+          View
+        </v-btn>
+      </v-card-actions>
+    </v-card>
   </span>
 </template>
 
