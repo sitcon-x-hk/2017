@@ -68,4 +68,6 @@
 <style scoped lang="sass">
   p
     font-size: 1.2rem
+  li
+    line-height: 1.8
 </style>
