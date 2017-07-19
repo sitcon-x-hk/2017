@@ -11,3 +11,7 @@
   </v-card>
 </template>
 
+<style scoped lang="sass">
+  .card
+    background-color: rgba(0, 0, 0, .1) !important
+</style>
