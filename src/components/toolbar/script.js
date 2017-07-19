@@ -25,7 +25,6 @@ export default {
       setImmediate(() => this.triggerDrawer());
     },
     checkShowCard() {
-      console.log(this.card);
       this.card = document.body.scrollTop > 100;
     },
     ...mapMutations({
