@@ -1,8 +1,13 @@
 <template>
-  <v-app>
+  <v-app :class="route">
     <drawer v-if="isMobile" :links="links" />
     <toolbar :isMobile="isMobile" :links="links" />
-    <router-view />
+    <main>
+      <v-container fluid v-if="route != 'home'">
+        <router-view />
+      </v-container>
+      <router-view v-else />
+    </main>
     <footer-social />
     <v-footer>
       <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/hk/">

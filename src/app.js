@@ -1,3 +1,5 @@
+import { mapState } from 'vuex';
+
 export default {
   name: 'app',
   components: {
@@ -26,6 +28,9 @@ export default {
     isMobile() {
       return this.width < 1024;
     },
+    ...mapState({
+      route: state => state.route.name,
+    }),
   },
   mounted() {
     window.addEventListener('resize', this.resizeHandler, { passive: false });
