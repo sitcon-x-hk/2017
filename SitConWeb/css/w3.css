@@ -322,7 +322,7 @@ a {
     box-shadow: 0 8px 16px 0 rgba(124, 38, 24, 0.2), 0 6px 20px 0 rgba(124, 38, 24, 0.19)
 }
 .w3-btn,
-.w3-button {
+.w3-button, .w3-button-black {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
