@@ -1,11 +1,8 @@
 <template>
   <div class="backdrop">
-    <div class="background">
-      <img src="/2017/img/background.jpg" />
-    </div>
     <v-layout column align-center justify-center class="content">
       <img src="/2017/img/icons/logo.png">
-      <h3 class="wood-red">Exploration and Innovation</h3>
+      <h3 class="primary">Exploration and Innovation</h3>
       <div class="headline">
         <span>
           <v-icon class="white--text">event</v-icon>
@@ -20,4 +17,4 @@
   </div>
 </template>
 
-<style scoped src="./jumbotron.sass" lang="sass"></style>
+<style scoped src="./style.sass" lang="sass"></style>

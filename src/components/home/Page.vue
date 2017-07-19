@@ -1,7 +1,7 @@
 <template>
-  <div data-page="home">
+  <span data-page="home">
     <jumbotron />
-    <v-card class="mt-4" light>
+    <v-card class="mt-4" light flat>
       <v-card-title primary-title>
         <div>
           <h3 class="headline primary--text">About SITCON x HK</h3>
@@ -13,7 +13,7 @@
         </div>
       </v-card-title>
     </v-card>
-    <v-card light>
+    <v-card light flat>
       <v-card-title primary-title>
         <div>
           <h3 class="headline primary--text">Theme: Exploration and Innovation</h3>
@@ -23,7 +23,7 @@
         </div>
       </v-card-title>
     </v-card>
-  </div>
+  </span>
 </template>
 
 <style scoped lang="sass" src="./home.sass"></style>
@@ -31,7 +31,7 @@
 <script>
   export default {
     components: {
-      Jumbotron: () => import(/* webpackChunkName: "home" */ './Jumbotron.vue'),
+      Jumbotron: () => import(/* webpackChunkName: "home" */ '../jumbotron/Component.vue'),
     },
   };
 </script>

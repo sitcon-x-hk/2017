@@ -16,7 +16,7 @@ $theme := {
 
 @import '../node_modules/vuetify/src/stylus/main.styl'
 
-.router-link-exact-active:not([data-role=toolbar])
+.router-link-exact-active:not([data-role=brand])
   color: $active-color !important
   font-weight: bold
 
@@ -28,3 +28,9 @@ $theme := {
 
 .wood-red--text
   color: $wood-red !important
+
+html, body
+  font-size: 15px
+
+#app
+  display: inline

@@ -1,0 +1,32 @@
+@import "../color"
+.backdrop
+  background-image: url('/2017/img/background.jpg')
+  min-height: 100%
+  background-attachment: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  margin-top: -25px
+  opacity: 0.75
+
+h3
+  text-align: center
+  padding: 12px 24px
+  letter-spacing: 5px
+  @media screen and (min-width: 769px)
+    letter-spacing: 10px
+
+div.headline
+  text-align: center
+  span
+    display: inline-block
+    .icon
+      color: black !important
+
+.content
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  @media screen and (max-width: 768px)
+    padding-top: 40px

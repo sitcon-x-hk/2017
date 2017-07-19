@@ -1,0 +1,63 @@
+@import '../color'
+
+#toolbar
+  top: 0
+  position: fixed
+  width: 100%
+  z-index: 1
+  background-color: rgba(255, 255, 255, 0.7) !important
+  will-change: color
+  transition-duration: 0.5s
+  &.scroll-card
+    background-color: white !important
+    animation: animatetop 0.4s
+
+nav
+  width: 100%
+  overflow: hidden
+  min-height: 60px
+  vertical-align: middle
+  display: flex
+  align-items: center
+  @media screen and (max-width: 768px)
+    min-height: 40px
+  &:before, &:after
+    content: ""
+    clear: both
+  .content
+    vertical-align: middle
+    display: flex
+    align-items: center
+    a
+      white-space: normal
+      padding: 8px 16px
+      float: left
+      border: none
+      width: auto
+      outline: none
+      display: block
+      user-select: none
+      overflow: hidden
+      text-decoration: none
+      color: $theme-red
+      background-color: inherit
+      text-align: center
+      cursor: pointer
+      text-transform: uppercase
+      &:hover
+        color: white
+        background-color: $theme-red
+
+.toolbar
+  background-color: rgba(255, 255, 255, 0.7) !important
+
+.title
+  font-size: 2rem
+  color: $theme-red
+
+.btn
+  font-size: 1rem
+a
+  text-decoration: none
+[data-role=toolbar]
+  color: white

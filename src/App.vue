@@ -1,12 +1,8 @@
 <template>
-  <v-app light>
+  <v-app>
     <drawer v-if="isMobile" :links="links" />
     <toolbar :isMobile="isMobile" :links="links" />
-    <main>
-      <v-container fluid>
-        <router-view></router-view>
-      </v-container>
-    </main>
+    <router-view />
     <footer-social />
     <v-footer>
       <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/hk/">
