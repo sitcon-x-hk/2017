@@ -6,11 +6,11 @@
       <div class="theme">Exploration and Innovation</div>
       <div class="headline">
         <span>
-          <v-icon class="black--text">event</v-icon>
+          <v-icon class="white--text">event</v-icon>
           2 Oct
         </span>
         <span>
-          <v-icon class="black--text">location_on</v-icon>
+          <v-icon class="white--text">location_on</v-icon>
           City University of Hong Kong
         </span>
       </div>
