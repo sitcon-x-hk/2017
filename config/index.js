@@ -1,6 +1,8 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 const path = require('path');
 
+require('dotenv').load();
+
 module.exports = {
   build: {
     env: require('./prod.env'),
