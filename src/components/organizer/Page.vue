@@ -36,14 +36,14 @@
     data() {
       return {
         organizers: [
-          { name: 'SITCON x HK Community', logo: '/2017/img/icons/logo.png' },
+          { name: 'SITCON x HK Community', logo: '/2017/img/icons/logo-312x312.png' },
           { name: 'Hong Kong Joint Universities Computer Association', logo: '/2017/img/logos/juca.png' },
         ],
         supporting: [
-          { name: 'Hong Kong Creative Technology Association', logo: 'https://file.hkoscon.org/organizer/cota.png' },
-          { name: 'Open Source Hong Kong', logo: 'https://file.hkoscon.org/organizer/oshk.png' },
-          { name: 'Hong Kong Linux User Group', logo: 'https://file.hkoscon.org/organizer/hklug.jpg' },
-          { name: 'SITCON - TW Community', logo: 'http://sitcon.org/2017/images/logos/sitcon.png' },
+          { name: 'Hong Kong Creative Technology Association', logo: '/2017/img/logos/cota.png' },
+          { name: 'Open Source Hong Kong', logo: '/2017/img/logos/oshk.png' },
+          { name: 'Hong Kong Linux User Group', logo: '/2017/img/logos/hklug.jpg' },
+          { name: 'SITCON - TW Community', logo: '/2017/img/logos/sitcontw.png' },
         ],
       };
     },
