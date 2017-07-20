@@ -2,7 +2,7 @@
   <span data-page="home">
     <jumbotron />
     <v-card class="mt-4" light flat>
-      <v-card-title primary-title>
+      <v-card-title primary-title class="justify-center">
         <div>
           <h3 class="headline primary--text">About SITCON x HK</h3>
           <p>
@@ -14,7 +14,7 @@
       </v-card-title>
     </v-card>
     <v-card light flat>
-      <v-card-title primary-title>
+      <v-card-title primary-title class="justify-center">
         <div>
           <h3 class="headline primary--text">Theme: Exploration and Innovation</h3>
           <p>
@@ -24,7 +24,7 @@
       </v-card-title>
     </v-card>
     <v-card light flat>
-      <v-card-title primary-title>
+      <v-card-title primary-title class="justify-center">
         <div>
           <h3 class="headline primary--text">Code of Conduct</h3>
           <p>
