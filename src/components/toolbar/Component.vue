@@ -8,9 +8,9 @@
         <router-link :to="{name: 'home'}" data-role="brand">SITCON x HK 2017</router-link>
       </div>
       <div v-if="!isMobile" class="content">
-        <a href="#" v-for="nav in links" :key="nav.display">
+        <router-link :to="nav.link" v-for="nav in links" :key="nav.display">
           {{ nav.display }}
-        </a>
+        </router-link>
       </div>
       <v-spacer />
       <a class="register hidden-md-and-down">Register</a>
