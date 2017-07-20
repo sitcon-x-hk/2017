@@ -1,26 +1,40 @@
 @import "../color"
-.backdrop
-  background-image: url('/2017/img/background.jpg')
-  min-height: 100%
-  background-attachment: fixed
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
-  opacity: 0.75
 
-h3
+$darken-red: #7c2618
+
+.backdrop
+  background: url('/2017/img/background.jpg') center/cover no-repeat fixed
+  min-height: 100%
+  position: relative
+  opacity: 0.75
+  filter: brightness(1.2)
+
+img
+  margin-bottom: -5px
+
+div.brand
   text-align: center
   padding: 12px 24px
   letter-spacing: 5px
+  font-size: 18px
+  background-color: $darken-red !important
   @media screen and (min-width: 769px)
     letter-spacing: 10px
+
+div.theme
+  font-size: 18px
+  color: $darken-red
+  padding: 10px 0
+  letter-spacing: 5px
+  font-weight: 700
+  text-align: center
 
 div.headline
   text-align: center
   span
     display: inline-block
-    .icon
-      color: black !important
+    color: black
+    opacity: 1
 
 .content
   position: absolute
