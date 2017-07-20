@@ -12,6 +12,8 @@
           {{ nav.display }}
         </a>
       </div>
+      <v-spacer />
+      <a class="register hidden-md-and-down">Register</a>
     </nav>
   </div>
 </template>
