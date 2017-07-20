@@ -1,8 +1,10 @@
 <template>
   <v-card light>
     <v-card-title primary-title>
-      <h3 class="headline black--text">Venue</h3>
-      4/F, Purple Zone, Academic 1, City University of Hong Kong Academic 1
+      <div>
+        <h3 class="headline black--text">Venue</h3>
+        <div>4/F, Purple Zone, Academic 1, City University of Hong Kong Academic 1</div>
+      </div>
     </v-card-title>
     <v-card-text>
 
