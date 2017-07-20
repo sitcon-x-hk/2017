@@ -4,9 +4,9 @@
     <v-container grid-list-md fluid>
       <v-layout row wrap class="list-organizers">
         <v-flex xs12 v-for="organizer in organizers" :key="organizer.name">
-          <v-card light>
+          <v-card light class="mt-2 mb-2">
             <v-card-media :src="organizer.logo" height="300px" />
-            <v-card-title primary-title>
+            <v-card-title primary-title class="justify-center">
               <h3 class="headline black--text">{{ organizer.name }}</h3>
             </v-card-title>
           </v-card>
@@ -19,7 +19,7 @@
         <v-flex xs12 md6 lg6 v-for="organizer in supporting" :key="organizer.name">
           <v-card light>
             <v-card-media :src="organizer.logo" height="200px" />
-            <v-card-title primary-title>
+            <v-card-title primary-title class="justify-center">
               <h3 class="headline black--text">{{ organizer.name }}</h3>
             </v-card-title>
           </v-card>
