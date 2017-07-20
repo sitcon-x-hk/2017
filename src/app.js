@@ -3,10 +3,9 @@ import { mapState } from 'vuex';
 export default {
   name: 'app',
   components: {
-    Toolbar: () => import('./components/toolbar/Component.vue'),
+    Toolbar: () => import(/* webpackChunkName: "app" */ './components/toolbar/Component.vue'),
     Drawer: () => import(/* webpackChunkName: "app" */ './components/Drawer.vue'),
     FooterSocial: () => import(/* webpackChunkName: "app" */ './components/Footer.vue'),
-    Jumbotron: () => import('./components/jumbotron/Component.vue'),
   },
   data() {
     return {
