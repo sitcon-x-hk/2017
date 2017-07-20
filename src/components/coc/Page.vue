@@ -1,7 +1,7 @@
 <template>
   <v-layout column>
     <h3 class="primary--text">Code of Conduct</h3>
-    <v-container>
+    <v-container class="mt-0">
       <v-layout row>
         <v-flex xs12>
           <v-card>
@@ -67,9 +67,4 @@
   </v-layout>
 </template>
 
-<style scoped lang="sass">
-  p
-    font-size: 1.2rem
-    li
-      line-height: 1.8
-</style>
+<style scoped lang="sass" src="./page.sass"></style>
