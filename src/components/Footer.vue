@@ -8,7 +8,7 @@
         <v-icon class="primary--text">email</v-icon>
       </v-btn>
     </v-card-actions>
-    <v-card-text>
+    <v-card-text class="primary--text">
       <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/hk/">
         <img alt="Creative Commons Licence" src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
       </a>
@@ -27,4 +27,6 @@
     opacity: 0.6
     &:hover
       opacity: 1
+  .icon
+    color: #6b1519 !important
 </style>
