@@ -1,6 +1,7 @@
 <template>
   <span data-page="home">
     <jumbotron />
+    <v-container>
     <v-card class="mt-4" light flat>
       <v-card-title primary-title class="justify-center">
         <div>
@@ -40,6 +41,7 @@
         </v-btn>
       </v-card-actions>
     </v-card>
+    </v-container>
   </span>
 </template>
 
