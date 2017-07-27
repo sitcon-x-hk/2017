@@ -1,0 +1,19 @@
+dist: trusty
+sudo: false
+language: node_js
+node_js:
+  - 6
+
+cache: yarn
+
+script:
+  - yarn lint
+  - yarn build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  on:
+    branch: master

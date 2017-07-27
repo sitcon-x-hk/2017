@@ -1,0 +1,15 @@
+{
+  "name": "SITCON x HK 2017",
+  "short_name": "SITCON x HK 2017",
+  "icons": [
+    {
+      "src": "/2017/img/icons/logo.png",
+      "sizes": "340x340",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/2017/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#9D1F25"
+}

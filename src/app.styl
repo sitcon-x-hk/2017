@@ -1,0 +1,46 @@
+$theme-red := #9D1F25
+$active-color := lighten(#9D1F25, 5%)
+
+$wood-red := #9C5C51
+@import '../node_modules/vuetify/src/stylus/settings/_colors.styl'
+
+$theme := {
+    primary: $theme-red
+    accent: #000
+    secondary: #fff
+    info: $blue.base
+    warning: $amber.base
+    error: $red.accent-2
+    success: $green.base
+  }
+
+@import '../node_modules/vuetify/src/stylus/main.styl'
+
+.router-link-exact-active:not([data-role=brand])
+  color: $active-color !important
+
+.drawer-tile .router-link-exact-active
+  color: $active-color !important
+
+.wood-red
+  background-color $wood-red !important
+
+.wood-red--text
+  color: $wood-red !important
+
+html, body
+  font-size: 15px
+  font-family 'Lato', sans-serif
+
+p
+  line-height 1.5
+
+#app.home
+  display: inline
+  main
+    display: inline
+
+.container.fluid
+  margin-top: 60px
+  @media screen and (max-width: 768px)
+    margin-top: 40px

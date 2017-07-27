@@ -1,0 +1,83 @@
+@import '../color'
+
+=toolbar-button()
+  line-height: 1.8
+  margin: 0
+  padding: 8px 16px
+  font-size: 15px
+  align-items: center
+  height: 100%
+  white-space: normal
+  float: left
+  border: none
+  width: auto
+  outline: none
+  display: block
+  user-select: none
+  overflow: hidden
+  text-decoration: none
+  background-color: inherit
+  text-align: center
+  cursor: pointer
+  text-transform: uppercase
+  color: $theme-red
+  will-change: background-color, color
+  transition-duration: 0.3s
+
+  &:hover
+    color: white !important
+    background-color: $theme-red
+
+#toolbar
+  top: 0
+  position: fixed
+  width: 100%
+  z-index: 1
+  background-color: rgba(255, 255, 255, 0.7) !important
+  will-change: color
+  transition-duration: 0.5s
+  &.scroll-card
+    background-color: white !important
+    animation: animatetop 0.4s
+
+nav
+  width: 100%
+  overflow: hidden
+  display: flex
+  align-items: center
+
+  &:before, &:after
+    content: ""
+    clear: both
+
+  .content
+    vertical-align: middle
+    display: flex
+    align-items: center
+    height: 100%
+    max-width: 100%
+    padding: 0
+    margin: 0
+
+    a
+      +toolbar-button
+
+  a.register
+    +toolbar-button
+    background-color: $theme-red
+    color: white
+    font-weight: 700
+.toolbar
+  background-color: rgba(255, 255, 255, 0.7) !important
+
+.title
+  font-size: 2rem
+  color: $theme-red
+
+.btn
+  font-size: 1rem
+a
+  text-decoration: none
+
+[data-role=toolbar]
+  color: white
