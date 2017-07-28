@@ -12,8 +12,8 @@
           {{ nav.display }}
         </router-link>
       </div>
-      <v-spacer />
-      <a class="register hidden-md-and-down">Register</a>
+      <!--<v-spacer />-->
+      <!--<a class="register hidden-md-and-down">Register</a>-->
     </nav>
   </div>
 </template>
