@@ -14,7 +14,7 @@
     "vue": "^2.3.3",
     "vue-router": "^2.3.1",
     "vue2-google-maps": "^0.7.9",
-    "vuetify": "^0.13.0",
+    "vuetify": "^0.14.0",
     "vuex": "^2.3.1",
     "vuex-router-sync": "^4.2.0"
   },
@@ -59,7 +59,7 @@
     "stylus-loader": "^3.0.1",
     "sw-precache-webpack-plugin": "^0.11.3",
     "url-loader": "^0.5.8",
-    "vue-loader": "^12.1.0",
+    "vue-loader": "^13.0.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^3.3.0",
