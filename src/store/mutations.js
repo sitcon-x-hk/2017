@@ -7,5 +7,5 @@ export default {
   },
   [UPDATE_DRAWER](state, value) {
     state.drawer = value;
-  }
+  },
 };

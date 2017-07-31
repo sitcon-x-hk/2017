@@ -46,10 +46,10 @@
         },
         set(val) {
           this.updateDrawer(val);
-        }
+        },
       },
       ...mapState({
-        drawerState: 'drawer'
+        drawerState: 'drawer',
       }),
     },
     data() {
@@ -60,6 +60,6 @@
     },
     methods: mapMutations({
       updateDrawer: UPDATE_DRAWER,
-    })
+    }),
   };
 </script>
