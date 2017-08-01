@@ -31,7 +31,7 @@ const router = new Router({
 });
 
 router.afterEach((to) => {
-  ga('set', 'page', `/2017/${to.path}`);
+  ga('set', 'page', `/2017${to.path}`);
   ga('send', 'pageview');
   window.scrollTo(0, 0);
 });
