@@ -1,7 +1,7 @@
 <template>
   <div id="toolbar" :class="toolbarClass">
     <nav>
-      <v-btn icon @click.native.stop="triggerDrawer" v-if="isMobile">
+      <v-btn icon @click.native.stop="triggerDrawer " v-if="isMobile">
         <v-icon class="primary--text">menu</v-icon>
       </v-btn>
       <div class="title hidden-md-and-up">
@@ -12,8 +12,8 @@
           {{ nav.display }}
         </router-link>
       </div>
-      <!--<v-spacer />-->
-      <!--<a class="register hidden-md-and-down">Register</a>-->
+      <v-spacer />
+      <a class="register hidden-md-and-down" target="_blank" href="https://sitcon-x-hk-2017.eventbrite.com/?aff=website&utm_source=website&utm_medium=website&utm_campaign=topbar&utm_content=register">Register</a>
     </nav>
   </div>
 </template>
