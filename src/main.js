@@ -4,6 +4,7 @@ import { sync } from 'vuex-router-sync';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import './ga';
 
 sync(store, router);
 Vue.use(Vuetify);

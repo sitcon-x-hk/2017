@@ -13,7 +13,7 @@
         </router-link>
       </div>
       <v-spacer />
-      <a class="register hidden-md-and-down" target="_blank" href="https://sitcon-x-hk-2017.eventbrite.com/?aff=website&utm_source=website&utm_medium=website&utm_campaign=topbar&utm_content=register">Register</a>
+      <a class="register hidden-md-and-down" target="_blank" :href="registerLink">Register</a>
     </nav>
   </div>
 </template>
