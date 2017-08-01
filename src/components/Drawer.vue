@@ -10,11 +10,11 @@
           {{ nav.display }}
         </v-list-tile-content>
       </v-list-tile>
-      <!--<v-list-tile href="#" tag="a" class="ticket">-->
-        <!--<v-list-tile-content>-->
-          <!--Get Ticket-->
-        <!--</v-list-tile-content>-->
-      <!--</v-list-tile>-->
+      <v-list-tile tag="a" class="ticket" target="_blank" href="https://sitcon-x-hk-2017.eventbrite.com/?aff=website&utm_source=website&utm_medium=website&utm_campaign=drawer&utm_content=register">
+        <v-list-tile-content>
+          Get Ticket
+        </v-list-tile-content>
+      </v-list-tile>
     </v-list>
   </v-navigation-drawer>
 </template>
