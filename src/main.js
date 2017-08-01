@@ -11,6 +11,7 @@ Vue.use(Vuetify);
 Vue.config.productionTip = false;
 
 Vue.config.errorHandler = (err) => {
+  // eslint-disable-next-line no-console
   console.error(err);
   /* globals ga */
   ga('send', 'exception', {
