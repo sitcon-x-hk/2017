@@ -34,16 +34,32 @@
 </style>
 
 <script>
-  import { mapState } from 'vuex';
+  import { mapState, mapMutations } from 'vuex';
+  import { UPDATE_DRAWER } from '../store/mutations';
 
   export default {
     props: ['links'],
-    computed: mapState(['drawer']),
+    computed: {
+      drawer: {
+        get() {
+          return this.drawerState;
+        },
+        set(val) {
+          this.updateDrawer(val);
+        },
+      },
+      ...mapState({
+        drawerState: 'drawer',
+      }),
+    },
     data() {
       return { display: true };
     },
     mounted() {
       this.display = true;
     },
+    methods: mapMutations({
+      updateDrawer: UPDATE_DRAWER,
+    }),
   };
 </script>
