@@ -10,6 +10,15 @@ Vue.use(Vuetify);
 
 Vue.config.productionTip = false;
 
+Vue.config.errorHandler = (err) => {
+  console.error(err);
+  /* globals ga */
+  ga('send', 'exception', {
+    exDescription: err.message,
+    exFatal: false,
+  });
+};
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
