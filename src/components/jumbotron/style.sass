@@ -3,27 +3,35 @@
 $darken-red: #7c2618
 
 .backdrop
-  background: url('/2017/img/background.jpg') center/cover no-repeat fixed
+  background: url('/2017/img/background.jpg') no-repeat fixed
   min-height: 100%
   position: relative
+  background-position: 50%
+  @media screen and (max-width: 414px)
+    background-position-x: 70%
+    background-position-y: 15%
+  @media screen and (min-width: 769px)
+    background-size: 170%
+    background-position-x: 81%
+    background-position-y: 45%
 
 div.brand
   text-align: center
-  padding: 12px 24px
+  padding: 10px 20px
   letter-spacing: 5px
   font-size: 18px
-  background-color: $wood-red !important
+  background-color: $theme-red !important
   @media screen and (min-width: 769px)
     letter-spacing: 10px
+    padding: 12px 24px
 
 div.theme
   font-size: 18px
-  color: lighten($wood-red, 10%)
+  color: $theme-red
   margin: 10px 0
   letter-spacing: 5px
   font-weight: 700
   text-align: center
-  text-shadow: 0 0 2px $darken-red
 
 div.headline
   text-align: center
@@ -31,16 +39,20 @@ div.headline
     display: inline-block
     color: white
     opacity: 1
-    background-color: rgba(0, 0, 0, .2)
+    @media screen and (max-width: 414px)
+      background-color: rgba(0, 0, 0, .3)
 
 .content
   position: absolute
-  top: 40%
   left: 50%
   transform: translate(-50%, -50%)
-  @media screen and (max-width: 768px)
+  top: 40%
+  @media screen and (max-width: 414px)
+    top: 42%
+  @media screen and (max-width: 768px) and (min-width: 415px)
     padding-top: 40px
+    top: 30%
 
   img
-    opacity: 0.75
-    margin-bottom: -5px
+    @media screen and (min-width: 415px)
+      margin-bottom: -5px

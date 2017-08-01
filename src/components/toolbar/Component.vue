@@ -1,7 +1,7 @@
 <template>
   <div id="toolbar" :class="toolbarClass">
     <nav>
-      <v-btn icon @click.native="openDrawer" v-if="isMobile">
+      <v-btn icon @click.native.stop="triggerDrawer" v-if="isMobile">
         <v-icon class="primary--text">menu</v-icon>
       </v-btn>
       <div class="title hidden-md-and-up">

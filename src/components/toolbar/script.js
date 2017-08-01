@@ -21,9 +21,6 @@ export default {
     },
   },
   methods: {
-    openDrawer() {
-      setImmediate(() => this.triggerDrawer());
-    },
     checkShowCard() {
       this.card = document.body.scrollTop > 100;
     },
