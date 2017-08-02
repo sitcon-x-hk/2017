@@ -4,6 +4,7 @@ import { sync } from 'vuex-router-sync';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import './ga';
 
 sync(store, router);
 Vue.use(Vuetify);
@@ -11,6 +12,7 @@ Vue.use(Vuetify);
 Vue.config.productionTip = false;
 
 Vue.config.errorHandler = (err) => {
+  // eslint-disable-next-line no-console
   console.error(err);
   /* globals ga */
   ga('send', 'exception', {

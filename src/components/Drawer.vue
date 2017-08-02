@@ -10,7 +10,7 @@
           {{ nav.display }}
         </v-list-tile-content>
       </v-list-tile>
-      <v-list-tile tag="a" class="ticket" target="_blank" href="https://sitcon-x-hk-2017.eventbrite.com/?aff=website&utm_source=website&utm_medium=website&utm_campaign=drawer&utm_content=register">
+      <v-list-tile tag="a" class="ticket" target="_blank" :href="registerLink">
         <v-list-tile-content>
           Get Ticket
         </v-list-tile-content>
@@ -37,6 +37,8 @@
   import { mapState, mapMutations } from 'vuex';
   import { UPDATE_DRAWER } from '../store/mutations';
 
+  const eventbrite = 'https://sitcon-x-hk-2017.eventbrite.com/?aff=website&utm_source=website&utm_medium=website&utm_campaign=drawer&utm_content=register';
+
   export default {
     props: ['links'],
     computed: {
@@ -48,8 +50,16 @@
           this.updateDrawer(val);
         },
       },
+      registerLink() {
+        if (this.clientID && this.clientID.length > 0) {
+          return `${eventbrite}&_eboga=${this.clientID}`;
+        }
+
+        return eventbrite;
+      },
       ...mapState({
         drawerState: 'drawer',
+        clientID: 'clientID',
       }),
     },
     data() {
