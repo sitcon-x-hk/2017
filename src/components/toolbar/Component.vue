@@ -7,13 +7,15 @@
       <div class="title hidden-md-and-up">
         <router-link :to="{name: 'home'}" data-role="brand">SITCON x HK 2017</router-link>
       </div>
-      <div v-if="!isMobile" class="content">
-        <router-link :to="nav.link" v-for="nav in links" :key="nav.display">
-          {{ nav.display }}
-        </router-link>
-      </div>
-      <v-spacer />
-      <a class="register hidden-md-and-down" target="_blank" :href="registerLink">Register</a>
+      <template v-if="!isMobile">
+        <div class="content">
+          <router-link :to="nav.link" v-for="nav in links" :key="nav.display">
+            {{ nav.display }}
+          </router-link>
+        </div>
+        <v-spacer />
+        <a class="register" target="_blank" :href="registerLink">Register</a>
+      </template>
     </nav>
   </div>
 </template>
