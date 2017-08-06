@@ -27,6 +27,11 @@ const router = new Router({
       name: 'venue',
       component: () => import(/* webpackChunkName: "venue" */ './components/venue/Page.vue'),
     },
+    {
+      path: '/cfp',
+      name: 'cfp',
+      component: () => import(/* webpackChunkName: "cfp" */ './components/cfp/Page.vue'),
+    },
   ],
 });
 
