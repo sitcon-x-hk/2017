@@ -21,7 +21,7 @@
   </v-card>
 </template>
 
-<style lang="sass" scoped>
+<style lang="stylus" scoped>
   .vue-map-container
     width: 100%
     height: 500px

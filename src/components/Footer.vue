@@ -20,7 +20,7 @@
   </v-card>
 </template>
 
-<style scoped lang="sass">
+<style scoped lang="stylus">
   .card__text
     text-align: center
   .card
