@@ -3,9 +3,6 @@ import { SET_CLIENT_ID } from './store/mutations';
 
 const trackingID = 'UA-74628515-1';
 
-// eslint-disable-next-line
-window.ga=window.ga||function(){(window.ga.window.q=window.ga.q||[]).push(arguments)};window.ga.l=+new Date;
-
 const ga = window.ga;
 
 ga('create', trackingID, 'auto');
