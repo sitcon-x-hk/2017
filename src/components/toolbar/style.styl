@@ -1,6 +1,6 @@
 @import '../color'
 
-=toolbar-button()
+toolbar-button()
   line-height: 1.8
   margin: 0
   padding: 8px 16px
@@ -39,44 +39,47 @@
   &.scroll-card
     background-color: white !important
 
-nav
-  width: 100%
-  overflow: hidden
-  display: flex
-  align-items: center
+  a
+    text-decoration: none
 
-  &:before, &:after
-    content: ""
-    clear: both
-
-  .content
-    vertical-align: middle
+  nav
+    width: 100%
+    overflow: hidden
     display: flex
     align-items: center
-    height: 100%
-    max-width: 100%
-    padding: 0
-    margin: 0
 
-    a
-      +toolbar-button
+    &:before, &:after
+      content: ""
+      clear: both
 
-  a.register
-    +toolbar-button
-    background-color: $theme-red
-    color: white
-    font-weight: 700
+    .content
+      vertical-align: middle
+      display: flex
+      align-items: center
+      height: 100%
+      max-width: 100%
+      padding: 0
+      margin: 0
+
+      a
+        toolbar-button()
+
+    a.register
+      toolbar-button()
+      background-color: $theme-red
+      color: white
+      font-weight: 700
+
+    .title
+      font-size: 2rem
+      color: $theme-red
+
+    [data-role=toolbar]
+      color: white
+
 .toolbar
   background-color: rgba(255, 255, 255, 0.7) !important
 
-.title
-  font-size: 2rem
-  color: $theme-red
-
 .btn
   font-size: 1rem
-a
-  text-decoration: none
 
-[data-role=toolbar]
-  color: white

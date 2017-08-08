@@ -29,7 +29,7 @@
   </v-layout>
 </template>
 
-<style lang="sass" src="./page.sass"></style>
+<style lang="stylus" src="./page.styl"></style>
 
 <script>
   export default {

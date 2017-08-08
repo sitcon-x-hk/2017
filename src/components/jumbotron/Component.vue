@@ -18,4 +18,4 @@
   </div>
 </template>
 
-<style scoped src="./style.sass" lang="sass"></style>
+<style scoped src="./style.styl" lang="stylus"></style>

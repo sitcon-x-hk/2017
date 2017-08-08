@@ -19,8 +19,8 @@
   </v-navigation-drawer>
 </template>
 
-<style scoped lang="sass">
-  @import color
+<style scoped lang="stylus">
+  @import './color.styl'
 
   .router-link-exact-active .list__tile__content
     font-weight: bold

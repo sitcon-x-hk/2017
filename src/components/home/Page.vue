@@ -49,7 +49,7 @@
   </span>
 </template>
 
-<style scoped lang="sass" src="./home.sass"></style>
+<style scoped lang="stylus" src="./home.styl"></style>
 
 <script>
   export default {
