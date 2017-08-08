@@ -15,8 +15,8 @@
                 and innovate them to integrate knowledge of IT fields and other fields,
                 in order to help students to find their career path in IT industry.
                 In this keynote, speakers can share the varieties of jobs for IT-related majors’ students.
-                Besides, speakers can tell the possibilities of works and inventions by integrating IT skills
-                with knowledge in other fields like finance, design, and mechanics.
+                Besides, for the innovation part, speakers can tell the possibilities of works and inventions
+                by integrating IT skills with knowledge in other fields like finance, design, and mechanics.
               </p>
             </v-card-text>
           </v-card>
