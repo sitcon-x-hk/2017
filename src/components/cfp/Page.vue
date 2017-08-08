@@ -10,13 +10,13 @@
             </v-card-title>
             <v-card-text>
               <p>
-                Exploration, as the name suggests, is the activity of searching and finding out about
-                something. With the progress of the times, technology improves every day. New
-                developments are constantly infiltrating our lives. We hope to foster an innovation and
-                technology culture in the community. Not only encourage people to explore new
-                technologies, but also hope that everyone can share and contribute every small part they
-                can in information technology to make the world better. In this keynote, speakers can tell
-                everybody technologies with innovation and share the stuffs in the community.
+                Exploration, as the name suggests, is the activity of searching and finding out about something.
+                The role of this year keynote is to help students to explore different fields of IT industry
+                and innovate them to integrate knowledge of IT fields and other fields,
+                in order to help students to find their career path in IT industry.
+                In this keynote, speakers can share the varieties of jobs for IT-related majors’ students.
+                Besides, speakers can tell the possibilities of works and inventions by integrating IT skills
+                with knowledge in other fields like finance, design, and mechanics.
               </p>
             </v-card-text>
           </v-card>
@@ -30,12 +30,17 @@
             </v-card-title>
             <v-card-text>
               <p>
-                We warmly welcome students to provide their own topics and share the skills and
-                experiences from the point of view of students.
+                We warmly welcome students to provide their own topics and share the skills and experiences
+                from the point of view of students.
               </p>
               <p>
-                Topics related to innovation are recommended but any topic related to information
-                technology or computer are welcome in general.
+                For topics related to exploration on technology,
+                we hope speakers can talk about data science / IoT / Frontend / Backend on the beginner level.
+              </p>
+              <p>
+                For topics related to innovations, any topic that is a new idea or come up with new thing are welcome.
+                You may share about new method you used in the project or homework,
+                or the development in a small and interesting project by you.
               </p>
             </v-card-text>
           </v-card>
@@ -48,7 +53,7 @@
         <v-flex xs12 l6>
           <v-card>
             <v-card-title primary-headline>
-              <div class="headline primary--text">Talk / Short Talk</div>
+              <div class="headline primary--text">Talk</div>
             </v-card-title>
             <v-card-text>
               <p>
@@ -67,7 +72,7 @@
             </v-card-title>
             <v-card-text>
               <p>
-                Open for register on the morning of the conference. You have only 3 minutes to present.
+                Open for register on the morning of the conference. You have only 5 minutes to present.
               </p>
             </v-card-text>
           </v-card>
