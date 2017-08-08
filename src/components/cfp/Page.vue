@@ -52,7 +52,7 @@
             </v-card-title>
             <v-card-text>
               <p>
-                Talk takes 40 minutes while the short talk takes 20 minutes. The time of Q&amp;A session is
+                Talk takes 45 minutes. The time of Q&amp;A session is
                 included and assigned to speaker.
               </p>
             </v-card-text>
