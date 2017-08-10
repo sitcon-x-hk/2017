@@ -67,4 +67,4 @@
   </v-layout>
 </template>
 
-<style scoped lang="sass" src="./page.sass"></style>
+<style scoped lang="stylus" src="./page.styl"></style>

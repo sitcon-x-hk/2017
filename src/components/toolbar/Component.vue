@@ -20,6 +20,6 @@
   </div>
 </template>
 
-<style scoped lang="sass" src="./style.sass"></style>
+<style scoped lang="stylus" src="./style.styl"></style>
 
 <script src="./script.js"></script>

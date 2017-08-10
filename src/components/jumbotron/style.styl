@@ -1,10 +1,11 @@
-@import "../color"
+@import "../color.styl"
 
-$darken-red: #7c2618
+$darken-red := #7c2618
 
 .backdrop
   background: url('/2017/img/background.jpg') no-repeat fixed
-  min-height: 100%
+  height: 100vh
+  min-height: 700px
   position: relative
   background-position: 50%
   @media screen and (max-width: 414px)
@@ -54,5 +55,13 @@ div.headline
     top: 30%
 
   img
+    max-height: 48vh
+    @media screen and (max-width: 375px)
+      margin-top: 40vh
+    @media screen and (max-height: 480px)
+      margin-top: 20vh
+    @media screen and (min-height: 500px)
+      margin-top: 20vh
+
     @media screen and (min-width: 415px)
       margin-bottom: -5px

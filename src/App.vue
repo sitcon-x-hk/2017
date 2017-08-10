@@ -4,9 +4,13 @@
     <toolbar :isMobile="isMobile" :links="links" />
     <main>
       <v-container fluid v-if="route != 'home'">
-        <router-view />
+        <transition name="fade-transition">
+          <router-view />
+        </transition>
       </v-container>
-      <router-view v-else />
+      <transition name="fade-transition" v-else>
+        <router-view />
+      </transition>
     </main>
     <footer-social />
   </v-app>
