@@ -32,6 +32,11 @@ const router = new Router({
       name: 'cfp',
       component: () => import(/* webpackChunkName: "cfp" */ './components/cfp/Page.vue'),
     },
+    {
+      path: '/sponsor',
+      name: 'sponsor',
+      component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/CallForSponsor.vue'),
+    },
   ],
 });
 
