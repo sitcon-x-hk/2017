@@ -8,6 +8,10 @@ Vue.use(Router);
 const router = new Router({
   routes: [
     {
+      path: '/!/:path',
+      redirect: to => `/${to.params.path}`,
+    },
+    {
       path: '/',
       name: 'home',
       component: () => import(/* webpackChunkName: "home" */ './components/home/Page.vue'),
