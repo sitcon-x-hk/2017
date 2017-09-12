@@ -3,7 +3,7 @@ import { SET_CLIENT_ID } from './store/mutations';
 
 const trackingID = 'UA-74628515-1';
 
-const ga = window.ga;
+const { ga } = window;
 
 ga('create', trackingID, 'auto');
 
