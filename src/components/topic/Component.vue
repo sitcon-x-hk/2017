@@ -29,7 +29,7 @@
                 {{ time }}
               </p>
               <p>
-                <v-icon>explore</v-icon>
+                <v-icon>room</v-icon>
                 {{ venue }}
               </p>
             </v-card-text>
