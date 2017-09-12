@@ -57,6 +57,10 @@ const router = new Router({
       path: '/topic/goby',
       component: () => import('./components/topics/Goby.vue'),
     },
+    {
+      path: '/topic/react-native',
+      component: () => import('./components/topics/ReactNative.vue'),
+    },
   ],
 });
 
