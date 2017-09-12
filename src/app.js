@@ -12,7 +12,6 @@ export default {
       width: window.innerWidth,
       links: [
         { link: { name: 'home' }, display: 'Home' },
-        { link: { name: 'cfp' }, display: 'Call For Paper' },
         { link: { name: 'sponsor' }, display: 'Sponsor' },
         { link: { name: 'organizer' }, display: 'Organizer' },
         { link: { name: 'venue' }, display: 'Venue' },
