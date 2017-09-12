@@ -81,6 +81,10 @@ const router = new Router({
       path: '/topic/ds',
       component: () => import('./components/topics/DataScience.vue'),
     },
+    {
+      path: '/timetable',
+      component: () => import('./components/timetable/Page.vue'),
+    },
   ],
 });
 
