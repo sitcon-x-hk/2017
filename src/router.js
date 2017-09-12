@@ -53,6 +53,10 @@ const router = new Router({
       path: '/topic/blockchain',
       component: () => import('./components/topics/Blockchain.vue'),
     },
+    {
+      path: '/topic/goby',
+      component: () => import('./components/topics/Goby.vue'),
+    },
   ],
 });
 

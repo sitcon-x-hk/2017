@@ -1,0 +1,34 @@
+<template>
+  <topic
+    title="Welcome the Brand New Ruby-like Language - Goby"
+    speaker="Maxwell"
+    icon="/2017/img/speaker/maxwell.jpg"
+    time="16:45 - 17:30"
+    venue="LT 18"
+  >
+    <p slot="speaker">
+      Ruby on Rails, ReactJS and RxJS developer.
+      A Rails developer in 5xRuby Inc.
+      Passionate on creating pretty UI and using JavaScript to create fun things in CodePen.io
+    </p>
+
+    <div slot="abstract">
+      <p>
+        The father of Ruby - Matz said that Ruby is designed for productivity and fun.
+        The world's brand new programming language - Goby is deeply inspired by Ruby
+        and implemented with Go which provides web developers to build web APIs and microservices.
+      </p>
+      <p>
+        I'll introduce the special features in Goby language and share my experience on contributing the open source project.
+      </p>
+    </div>
+  </topic>
+</template>
+
+<script>
+  export default {
+    components: {
+      Topic: () => import('../topic/Component.vue'),
+    },
+  };
+</script>
