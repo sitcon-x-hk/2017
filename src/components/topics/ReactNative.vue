@@ -5,6 +5,7 @@
     icon="/2017/img/speaker/rachel.jpg"
     venue="LT 17"
     time="12:15 - 13:00"
+    :tags="tags"
   >
     <p slot="speaker">
       A Taiwanese Computer Engineering student studying at HKU.
@@ -27,6 +28,16 @@
   export default {
     components: {
       Topic: () => import('../topic/Component.vue'),
+    },
+    data() {
+      return {
+        tags: [
+          'React',
+          'React Native',
+          'Mobile App',
+          'Exploration',
+        ],
+      };
     },
   };
 </script>

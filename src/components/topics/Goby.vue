@@ -5,6 +5,7 @@
     icon="/2017/img/speaker/maxwell.jpg"
     time="16:45 - 17:30"
     venue="LT 18"
+    :tags="tags"
   >
     <p slot="speaker">
       Ruby on Rails, ReactJS and RxJS developer.
@@ -29,6 +30,15 @@
   export default {
     components: {
       Topic: () => import('../topic/Component.vue'),
+    },
+    data() {
+      return {
+        tags: [
+          'Ruby',
+          'Go',
+          'Innovation',
+        ],
+      };
     },
   };
 </script>

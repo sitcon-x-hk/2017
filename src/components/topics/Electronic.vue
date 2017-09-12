@@ -5,6 +5,7 @@
     icon="/2017/img/speaker/sebastien.png"
     venue="LT 17"
     time="16:45 - 17:30"
+    :tags="tags"
   >
     <p slot="speaker">
       Sébastien is the founder and a director of M-Labs Ltd,
@@ -23,6 +24,16 @@
   export default {
     components: {
       Topic: () => import('../topic/Component.vue'),
+    },
+    data() {
+      return {
+        tags: [
+          'Electronic',
+          'Quantum',
+          'Atomic Physics',
+          'Exploration',
+        ],
+      };
     },
   };
 </script>

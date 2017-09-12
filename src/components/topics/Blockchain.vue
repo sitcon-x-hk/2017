@@ -5,6 +5,7 @@
     icon="/2017/img/speaker/johnny.jpg"
     venue="LT 18"
     time="11:20 - 12:05"
+    :tags="tags"
   >
     <div slot="speaker">
       <ul>
@@ -41,6 +42,17 @@
   export default {
     components: {
       Topic: () => import('../topic/Component.vue'),
+    },
+    data() {
+      return {
+        tags: [
+          'FinTech',
+          'Blockchain',
+          'Bitcoin',
+          'ICO',
+          'Exploration',
+        ],
+      };
     },
   };
 </script>
