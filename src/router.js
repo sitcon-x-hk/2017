@@ -49,6 +49,10 @@ const router = new Router({
       path: '/topic/culture-differences',
       component: () => import('./components/topics/CultureDifferences.vue'),
     },
+    {
+      path: '/topic/blockchain',
+      component: () => import('./components/topics/Blockchain.vue'),
+    },
   ],
 });
 
