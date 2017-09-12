@@ -73,6 +73,14 @@ const router = new Router({
       path: '/topic/media',
       component: () => import('./components/topics/Media.vue'),
     },
+    {
+      path: '/topic/ecosystem',
+      component: () => import('./components/topics/Ecosystem.vue'),
+    },
+    {
+      path: '/topic/ds',
+      component: () => import('./components/topics/DataScience.vue'),
+    },
   ],
 });
 

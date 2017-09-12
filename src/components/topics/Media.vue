@@ -35,7 +35,8 @@
     data() {
       return {
         tags: [
-
+          'Backend',
+          'Data Science',
         ],
       };
     },
