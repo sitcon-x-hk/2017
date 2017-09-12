@@ -39,7 +39,7 @@ const router = new Router({
     {
       path: '/sponsor',
       name: 'sponsor',
-      component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/CallForSponsor.vue'),
+      component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/Sponsor.vue'),
     },
     {
       path: '/topic/the-geek',
@@ -83,6 +83,7 @@ const router = new Router({
     },
     {
       path: '/timetable',
+      name: 'timetable',
       component: () => import('./components/timetable/Page.vue'),
     },
   ],
