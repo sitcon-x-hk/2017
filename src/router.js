@@ -45,6 +45,10 @@ const router = new Router({
       path: '/topic/the-geek',
       component: () => import('./components/topics/TheGeek.vue'),
     },
+    {
+      path: '/topic/culture-differences',
+      component: () => import('./components/topics/CultureDifferences.vue'),
+    },
   ],
 });
 

@@ -23,5 +23,8 @@ export default {
       type: String,
       required: true,
     },
+    community: {
+      type: String,
+    },
   },
 };

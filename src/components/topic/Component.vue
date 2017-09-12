@@ -54,6 +54,7 @@
                 </v-flex>
                 <v-flex xs12 lg7>
                   <slot name="speaker"></slot>
+                  <p v-if="community">Community: {{ community }}</p>
                 </v-flex>
               </v-layout>
             </v-container>
