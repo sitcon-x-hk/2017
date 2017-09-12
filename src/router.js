@@ -69,6 +69,10 @@ const router = new Router({
       path: '/topic/jupyter',
       component: () => import('./components/topics/Jupyter.vue'),
     },
+    {
+      path: '/topic/media',
+      component: () => import('./components/topics/Media.vue'),
+    },
   ],
 });
 
