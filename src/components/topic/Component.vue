@@ -43,11 +43,19 @@
             <v-card-title primary-title>
               <div>
                 <h3 class="headline">Speaker</h3>
+                <div>{{ speaker }}</div>
               </div>
             </v-card-title>
             <v-container fluid grid-list-lg class="mt-0">
+              <v-layout row class="hidden-lg-and-up">
+                <v-flex xs12>
+                  <v-avatar size="200" class="grey lighten-4">
+                    <img :src="icon" class="avatar-img">
+                  </v-avatar>
+                </v-flex>
+              </v-layout>
               <v-layout row>
-                <v-flex xs12 lg3>
+                <v-flex xs12 lg3 class="hidden-md-and-down">
                   <v-avatar size="200" class="grey lighten-4">
                     <img :src="icon" class="avatar-img">
                   </v-avatar>
