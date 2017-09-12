@@ -14,8 +14,10 @@
       developments, he becomes a professional in IT industry, especially talented in technology like Linux, MySQL and Perl.
     </p>
     <p slot="abstract">
-      Brief talking about Hong Kong IT working opportunities,
-      business and environments for students to explore in the IT industry.
+      In this keynote, Wan Leung will give a brief introduction on Hong Kong IT working opportunities, business and environments.
+      This Keynote will help audience to explore different fields and jobs in IT industry,
+      including the integration of business knowledge and programming,
+      in order to help students in different majors to find their career path.
     </p>
   </topic>
 </template>
