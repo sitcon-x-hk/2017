@@ -65,6 +65,10 @@ const router = new Router({
       path: '/topic/electronic',
       component: () => import('./components/topics/Electronic.vue'),
     },
+    {
+      path: '/topic/jupyter',
+      component: () => import('./components/topics/Jupyter.vue'),
+    },
   ],
 });
 
