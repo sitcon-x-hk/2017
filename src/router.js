@@ -61,6 +61,10 @@ const router = new Router({
       path: '/topic/react-native',
       component: () => import('./components/topics/ReactNative.vue'),
     },
+    {
+      path: '/topic/electronic',
+      component: () => import('./components/topics/Electronic.vue'),
+    },
   ],
 });
 
