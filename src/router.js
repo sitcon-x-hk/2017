@@ -41,6 +41,10 @@ const router = new Router({
       name: 'sponsor',
       component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/CallForSponsor.vue'),
     },
+    {
+      path: '/topic/the-geek',
+      component: () => import('./components/topics/TheGeek.vue'),
+    },
   ],
 });
 
