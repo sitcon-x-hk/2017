@@ -84,7 +84,7 @@ export default {
           icon: '/2017/img/speaker/gary.jpg',
           venue: 'LT 18',
           time: '15:45 - 16:30',
-          link: '/topic/jupyter',
+          link: '/topic/culture-differences',
         },
         { divider: true },
         {
