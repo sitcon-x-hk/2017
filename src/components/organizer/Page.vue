@@ -13,19 +13,19 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <h4 class="primary--text mt-5">Co-Organizer</h4>
-      <v-container grid-list-md fluid>
-        <v-layout row wrap class="list-supporting-organizers">
-          <v-flex xs12 md6 lg6 v-for="organizer in coOrganizers" :key="organizer.name">
-            <v-card light>
-              <v-card-media :src="organizer.logo" height="230px" />
-              <v-card-title primary-title class="justify-center">
-                <h3 class="headline black--text">{{ organizer.name }}</h3>
-              </v-card-title>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-container>
+    <!--<h4 class="primary&#45;&#45;text mt-5">Co-Organizer</h4>-->
+      <!--<v-container grid-list-md fluid>-->
+        <!--<v-layout row wrap class="list-supporting-organizers">-->
+          <!--<v-flex xs12 md6 lg6 v-for="organizer in coOrganizers" :key="organizer.name">-->
+            <!--<v-card light>-->
+              <!--<v-card-media :src="organizer.logo" height="230px" />-->
+              <!--<v-card-title primary-title class="justify-center">-->
+                <!--<h3 class="headline black&#45;&#45;text">{{ organizer.name }}</h3>-->
+              <!--</v-card-title>-->
+            <!--</v-card>-->
+          <!--</v-flex>-->
+        <!--</v-layout>-->
+      <!--</v-container>-->
     <h4 class="primary--text mt-5">Supporting Organizer</h4>
     <v-container grid-list-md fluid>
       <v-layout row wrap class="list-supporting-organizers">
