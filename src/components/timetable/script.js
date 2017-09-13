@@ -96,7 +96,7 @@ export default {
           link: '/topic/electronic',
         },
         {
-          title: 'Electronic tools for science - how I ended up building gear for atomic physics in Hong Kong',
+          title: 'Welcome the Brand New Ruby-like Language - Goby',
           speaker: 'Maxwell',
           icon: '/2017/img/speaker/maxwell.jpg',
           venue: 'LT 18',
