@@ -39,7 +39,52 @@ const router = new Router({
     {
       path: '/sponsor',
       name: 'sponsor',
-      component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/CallForSponsor.vue'),
+      component: () => import(/* webpackChunkName: "sponsor" */ './components/sponsor/Sponsor.vue'),
+    },
+    {
+      path: '/topic/the-geek',
+      component: () => import('./components/topics/TheGeek.vue'),
+    },
+    {
+      path: '/topic/culture-differences',
+      component: () => import('./components/topics/CultureDifferences.vue'),
+    },
+    {
+      path: '/topic/blockchain',
+      component: () => import('./components/topics/Blockchain.vue'),
+    },
+    {
+      path: '/topic/goby',
+      component: () => import('./components/topics/Goby.vue'),
+    },
+    {
+      path: '/topic/react-native',
+      component: () => import('./components/topics/ReactNative.vue'),
+    },
+    {
+      path: '/topic/electronic',
+      component: () => import('./components/topics/Electronic.vue'),
+    },
+    {
+      path: '/topic/jupyter',
+      component: () => import('./components/topics/Jupyter.vue'),
+    },
+    {
+      path: '/topic/media',
+      component: () => import('./components/topics/Media.vue'),
+    },
+    {
+      path: '/topic/ecosystem',
+      component: () => import('./components/topics/Ecosystem.vue'),
+    },
+    {
+      path: '/topic/ds',
+      component: () => import('./components/topics/DataScience.vue'),
+    },
+    {
+      path: '/timetable',
+      name: 'timetable',
+      component: () => import('./components/timetable/Page.vue'),
     },
   ],
 });
