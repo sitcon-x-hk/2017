@@ -36,7 +36,7 @@ export default {
           icon: '/2017/img/speaker/johnny.jpg',
           venue: 'LT 18',
           time: '11:20 - 12:05',
-          link: '/topic/media',
+          link: '/topic/blockchain',
         },
         { divider: true },
         {
