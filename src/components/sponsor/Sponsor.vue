@@ -5,7 +5,7 @@
       <h4 class="headline">Diamond Sponsor</h4>
       <v-layout row>
         <v-flex xs12>
-          <v-card v-for="sponsor in sponsors.diamond">
+          <v-card v-for="sponsor in sponsors.diamond" :key="sponsor.name">
             <v-container grid-list-lg>
               <v-layout row class="hidden-lg-and-up">
                 <v-avatar tile size="200">
@@ -33,7 +33,7 @@
       <h4 class="headline">Bronze Sponsor</h4>
       <v-layout row>
         <v-flex xs12 lg6>
-          <v-card v-for="sponsor in sponsors.bronze">
+          <v-card v-for="sponsor in sponsors.bronze" :key="sponsor.name">
             <v-container grid-list-lg>
               <v-layout row class="hidden-lg-and-up">
                 <v-avatar tile size="200">
