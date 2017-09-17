@@ -57,6 +57,34 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <v-container class="mt-0">
+      <h4 class="headline">General Sponsor</h4>
+      <v-layout row>
+        <v-flex xs12 md6 lg4>
+          <v-card v-for="sponsor in sponsors.general" :key="sponsor.name">
+            <v-container grid-list-lg>
+              <v-layout row class="hidden-lg-and-up">
+                <v-avatar tile size="200">
+                  <img :src="sponsor.logo" class="avatar-img">
+                </v-avatar>
+              </v-layout>
+              <v-layout row>
+                <v-flex lg3 class="hidden-md-and-down">
+                  <v-avatar tile size="200">
+                    <img :src="sponsor.logo" class="avatar-img">
+                  </v-avatar>
+                </v-flex>
+                <v-flex xs12 lg9>
+                  <p>
+                    {{ sponsor.intro }}
+                  </p>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-layout>
 </template>
 

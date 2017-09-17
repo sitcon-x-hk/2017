@@ -33,6 +33,17 @@ export default {
             `,
           },
         ],
+        general: [
+          {
+            name: 'Gandi.net',
+            logo: '/2017/img/sponsor/gandi.png',
+            intro: `
+            Gandi is an innovative domain name registrar and DNS provider for over 700 extensions (such as .COM, .HK, .IO, .SHOP, .BLOG ...).
+            The company now manages over 2 million domain names for its customers, which range from small startup companies to known brands and large organizations.
+            Gandi was established in France in 1999 and now has offices in San Francisco, Paris, Luxembourg and Taipei.
+            `,
+          },
+        ],
       },
     };
   },
