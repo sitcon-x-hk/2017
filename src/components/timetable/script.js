@@ -20,6 +20,7 @@ export default {
           venue: 'LT 17',
           time: '10:25 - 11:10',
           link: '/topic/ecosystem',
+          language: 'English',
         },
         { divider: true },
         {
@@ -29,6 +30,7 @@ export default {
           venue: 'LT 17',
           time: '11:20 - 12:05',
           link: '/topic/media',
+          language: 'Cantonese',
         },
         {
           title: 'Essential Blockchain Knowledge for Bitcoin Investment',
@@ -37,6 +39,7 @@ export default {
           venue: 'LT 18',
           time: '11:20 - 12:05',
           link: '/topic/blockchain',
+          language: 'Cantonese',
         },
         { divider: true },
         {
@@ -46,6 +49,7 @@ export default {
           venue: 'LT 17',
           time: '12:15 - 13:00',
           link: '/topic/react-native',
+          language: 'English',
         },
         {
           title: 'The Geek - Rock with Sanity in this Tech Gold Rush',
@@ -54,6 +58,7 @@ export default {
           venue: 'LT 18',
           time: '12:15 - 13:00',
           link: '/topic/the-geek',
+          language: 'English',
         },
         { divider: true },
         {
@@ -68,6 +73,7 @@ export default {
           venue: 'LT 17',
           time: '14:30 - 15:30',
           link: '/topic/ds',
+          language: 'English',
         },
         { divider: true },
         {
@@ -77,6 +83,7 @@ export default {
           venue: 'LT 17',
           time: '15:45 - 16:30',
           link: '/topic/jupyter',
+          language: 'Cantonese',
         },
         {
           title: 'Discussion on cultural differences between Easterners & Westerners',
@@ -85,6 +92,7 @@ export default {
           venue: 'LT 18',
           time: '15:45 - 16:30',
           link: '/topic/culture-differences',
+          language: 'Cantonese / English',
         },
         { divider: true },
         {
@@ -94,6 +102,7 @@ export default {
           venue: 'LT 17',
           time: '16:45 - 17:30',
           link: '/topic/electronic',
+          language: 'English',
         },
         {
           title: 'Welcome the Brand New Ruby-like Language - Goby',
@@ -102,6 +111,7 @@ export default {
           venue: 'LT 18',
           time: '16:45 - 17:30',
           link: '/topic/goby',
+          language: 'English',
         },
         { divider: true },
         {
