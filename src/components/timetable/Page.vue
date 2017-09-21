@@ -32,7 +32,7 @@
                   <br>
                   <v-icon>room</v-icon> {{ session.venue }}
                   <v-icon>access_time</v-icon> {{ session.time }}
-                  <v-icon>chat_bubble</v-icon> {{ session.language }}
+                  <v-icon>chat_bubble</v-icon> {{ session.language }} (with English slide)
                 </v-list-tile-sub-title>
               </v-list-tile-content>
             </v-list-tile>
