@@ -7,6 +7,7 @@
     venue="LT 17"
     time="10:25 - 11:10"
     :tags="tags"
+    language="English"
   >
     <p slot="speaker">
       Wan Leung, the Chairman of Hong Kong Linux User Group, was graduated from the Queen Mary University of London

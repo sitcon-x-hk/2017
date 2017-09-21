@@ -6,6 +6,7 @@
     venue="LT 17"
     time="12:15 - 13:00"
     :tags="tags"
+    language="English"
   >
     <p slot="speaker">
       A Taiwanese Computer Engineering student studying at HKU.

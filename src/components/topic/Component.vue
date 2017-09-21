@@ -32,6 +32,10 @@
                 <v-icon>room</v-icon>
                 {{ venue }}
               </p>
+              <p>
+                <v-icon>chat_bubble</v-icon>
+                {{ language }} (with English slide)
+              </p>
             </v-card-text>
           </v-card>
         </v-flex>

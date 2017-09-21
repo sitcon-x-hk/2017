@@ -6,6 +6,7 @@
     venue="LT 17"
     time="15:45 - 16:30"
     :tags="tags"
+    language="Cantonese"
   >
     <p slot="speaker">
        Currently working at Oursky. Ex-amazon software development engineer. Now working on open data and open source software.

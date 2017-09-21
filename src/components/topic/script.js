@@ -26,5 +26,9 @@ export default {
     community: {
       type: String,
     },
+    language: {
+      type: String,
+      required: true,
+    },
   },
 };
