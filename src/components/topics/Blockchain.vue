@@ -6,6 +6,7 @@
     venue="LT 18"
     time="11:20 - 12:05"
     :tags="tags"
+    language="Cantonese"
   >
     <div slot="speaker">
       <ul>

@@ -6,6 +6,7 @@
     :tags="tags"
     time="12:15 - 13:00"
     venue="LT 18"
+    language="English"
   >
     <p slot="speaker">
       Clara Chau is a software engineer currently running her own consultancy

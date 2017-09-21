@@ -6,6 +6,7 @@
     venue="LT 17"
     time="11:20 - 12:05"
     :tags="tags"
+    language="Cantonese"
   >
     <p slot="speaker">
       Mr. TANG Chung Pan (aka. Dick Tang) is currently the Head of DevOps at WeMedia01,

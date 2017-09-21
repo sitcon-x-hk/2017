@@ -6,6 +6,7 @@
     time="16:45 - 17:30"
     venue="LT 18"
     :tags="tags"
+    language="English"
   >
     <p slot="speaker">
       Ruby on Rails, ReactJS and RxJS developer.

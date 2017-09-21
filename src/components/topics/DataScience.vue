@@ -6,6 +6,7 @@
     venue="LT 17"
     icon="/2017/img/speaker/unknown.png"
     :tags="tags"
+    language="English"
   >
     <p slot="speaker">(TBD)</p>
     <p slot="abstract">

@@ -6,6 +6,7 @@
     venue="LT 17"
     time="16:45 - 17:30"
     :tags="tags"
+    language="English"
   >
     <p slot="speaker">
       Sébastien is the founder and a director of M-Labs Ltd,
