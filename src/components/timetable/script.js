@@ -1,4 +1,12 @@
+import { mapState } from 'vuex';
+
 export default {
+  computed: {
+    linkTarget() {
+      return this.online ? '_blank' : '_self';
+    },
+    ...mapState(['online']),
+  },
   data() {
     return {
       sessions: [

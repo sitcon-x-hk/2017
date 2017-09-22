@@ -11,15 +11,15 @@
                 <v-list-tile-title>
                   {{ session.issue }}
                 </v-list-tile-title>
-                <v-list-sub-title>
+                <v-list-tile-sub-title>
                   <template v-if="session.venue">
                     <v-icon>room</v-icon> {{ session.venue }}
                   </template>
                   <v-icon>access_time</v-icon> {{ session.time }}
-                </v-list-sub-title>
+                </v-list-tile-sub-title>
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile v-else :key="session.title" avatar :to="session.link" target="_blank">
+            <v-list-tile v-else :key="session.title" avatar :to="session.link" :target="linkTarget">
               <v-list-tile-avatar>
                 <img :src="session.icon" />
               </v-list-tile-avatar>
