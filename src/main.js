@@ -4,6 +4,7 @@ import { sync } from 'vuex-router-sync';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import { UPDATE_ONLINE } from './store/mutations';
 import './ga';
 
 sync(store, router);
@@ -27,4 +28,12 @@ new Vue({
   router,
   store,
   render: h => h(App),
+});
+
+window.addEventListener('online', () => {
+  store.commit(UPDATE_ONLINE, navigator.onLine);
+});
+
+window.addEventListener('offline', () => {
+  store.commit(UPDATE_ONLINE, navigator.onLine);
 });

@@ -13,6 +13,7 @@
       </transition>
     </main>
     <footer-social />
+    <hashtag></hashtag>
   </v-app>
 </template>
 

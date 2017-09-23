@@ -32,6 +32,17 @@ export default {
             the online destination for contemporary music. 
             `,
           },
+          {
+            name: 'Top Career',
+            logo: '/2017/img/sponsor/topcareer.png',
+            intro: `
+            TOP CAREER is an international career and recruitment service for university students worldwide.
+            We offer Global Human Resource Services including job-seeking consulting services, education,
+            and training services for top global students and graduates around the world.
+            Top multinational and Japanese companies are waiting for you!
+            You can see our clients here: http://www.topcareer.jp/inter/company_search/
+            `,
+          },
         ],
         general: [
           {

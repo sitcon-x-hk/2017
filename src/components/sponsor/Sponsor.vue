@@ -4,8 +4,8 @@
     <v-container class="mt-0">
       <h4 class="headline">Diamond Sponsor</h4>
       <v-layout row>
-        <v-flex xs12>
-          <v-card v-for="sponsor in sponsors.diamond" :key="sponsor.name">
+        <v-flex xs12 v-for="sponsor in sponsors.diamond" :key="sponsor.name">
+          <v-card>
             <v-container grid-list-lg>
               <v-layout row class="hidden-lg-and-up">
                 <v-avatar tile size="200">
@@ -32,8 +32,8 @@
     <v-container class="mt-0">
       <h4 class="headline">Bronze Sponsor</h4>
       <v-layout row>
-        <v-flex xs12 lg6>
-          <v-card v-for="sponsor in sponsors.bronze" :key="sponsor.name">
+        <v-flex xs12 lg6 v-for="sponsor in sponsors.bronze" :key="sponsor.name">
+          <v-card>
             <v-container grid-list-lg>
               <v-layout row class="hidden-lg-and-up">
                 <v-avatar tile size="200">
@@ -60,8 +60,8 @@
     <v-container class="mt-0">
       <h4 class="headline">General Sponsor</h4>
       <v-layout row>
-        <v-flex xs12 md6 lg4>
-          <v-card v-for="sponsor in sponsors.general" :key="sponsor.name">
+        <v-flex xs12 md6 lg4 v-for="sponsor in sponsors.general" :key="sponsor.name">
+          <v-card>
             <v-container grid-list-lg>
               <v-layout row class="hidden-lg-and-up">
                 <v-avatar tile size="200">
