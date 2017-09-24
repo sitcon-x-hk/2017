@@ -6,7 +6,7 @@
     venue="LT 17"
     time="18:00 - 18:05"
     :tags="tags"
-    language="English"
+    language="Mandarin"
   >
     <div slot="speaker">
       <p>Angeline: The President of 2018 SITCON Taiwan. Major is geology, but it’s work in 5xruby Inc. now.</p>

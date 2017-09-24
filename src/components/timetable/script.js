@@ -134,7 +134,7 @@ export default {
           icon: '/2017/img/speaker/sitcon-tw.png',
           time: '18:00 - 18:05',
           link: '/topic/SITCON-TW',
-          language: 'English',
+          language: 'Mandarin',
           venue: 'LT 17',
         },
         { divider: true },
