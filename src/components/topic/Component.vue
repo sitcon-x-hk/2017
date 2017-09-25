@@ -34,7 +34,7 @@
               </p>
               <p>
                 <v-icon>chat_bubble</v-icon>
-                {{ language }} (with English slide)
+                {{ language }} (with English slides)
               </p>
             </v-card-text>
           </v-card>
