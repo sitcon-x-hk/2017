@@ -129,9 +129,19 @@ export default {
         },
         { divider: true },
         {
+          title: 'Students’ Information Technology Conference 2018 in Taiwan',
+          speaker: 'Angeline & Ballfish',
+          icon: '/2017/img/speaker/sitcon-tw.png',
+          time: '18:00 - 18:05',
+          link: '/topic/SITCON-TW',
+          language: 'Mandarin',
+          venue: 'LT 17',
+        },
+        { divider: true },
+        {
           issue: 'Closing Ceremony',
           venue: 'LT 18',
-          time: '18:00 - 18:30',
+          time: '18:05 - 18:30',
         },
       ],
     };

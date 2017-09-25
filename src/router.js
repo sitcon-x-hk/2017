@@ -86,6 +86,10 @@ const router = new Router({
       name: 'timetable',
       component: () => import('./components/timetable/Page.vue'),
     },
+    {
+      path: '/topic/SITCON-TW',
+      component: () => import('./components/topics/SITCON-TW.vue'),
+    },
   ],
 });
 
