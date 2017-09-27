@@ -76,8 +76,8 @@ export default {
         { divider: true },
         {
           title: 'A Glimpse of Data Science and How to Kick-start Your Cloud Career',
-          speaker: 'Delon Yau',
-          icon: '/2017/img/speaker/delonyau.jpg',
+          speaker: '(TBD)',
+          icon: '/2017/img/speaker/unknown.png',
           venue: 'LT 17',
           time: '14:30 - 15:15',
           link: '/topic/ds',
@@ -96,8 +96,8 @@ export default {
         { divider: true },
         {
           title: 'Hands-on session – Machine Learning Studio',
-          speaker: '(TBD)',
-          icon: '/2017/img/speaker/unknown.png',
+          speaker: 'Delon Yau',
+          icon: '/2017/img/speaker/delonyau.jpg',
           venue: 'P4-701',
           time: '15:30 - 17:30',
           link: '/topic/workshop',
