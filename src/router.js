@@ -90,6 +90,10 @@ const router = new Router({
       path: '/topic/SITCON-TW',
       component: () => import('./components/topics/SITCON-TW.vue'),
     },
+    {
+      path: '/topic/workshop',
+      component: () => import('./components/topics/Workshop.vue'),
+    },
   ],
 });
 

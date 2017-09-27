@@ -4,7 +4,7 @@
     speaker="Angeline & Ballfish"
     icon="/2017/img/speaker/sitcon-tw.png"
     venue="LT 17"
-    time="18:00 - 18:05"
+    time="15:15 - 15:20"
     :tags="tags"
     language="Mandarin"
   >
