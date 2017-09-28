@@ -1,14 +1,31 @@
 <template>
   <topic
     title="Hands-on session – Machine Learning Studio"
-    speaker="(TBD)"
-    icon="/2017/img/speaker/unknown.png"
+    speaker="Delon Yau"
+    icon="/2017/img/speaker/delonyau.jpg"
     venue="LT 17"
     time="15:30 - 17:30"
     :tags="tags"
     language="English"
   >
-    <p slot="speaker">(TBD)</p>
+    <div slot="speaker">
+      <p>
+        Delon is currently a Technical Evangelist in the Commercial Software Engineering Group at Microsoft,
+        evangelizing developers on artificial intelligence on cloud, big data analytics and IoT. 
+      </p>
+      <p>
+        Prior to Joining Microsoft HK, he worked for Microsoft UK as a machine learning developer supporting
+        the data analytics development of a cloud-based online shopping platform.
+        Besides, he worked in a number of startups and solution companies with broad technology experience.
+        He is a hardware and software engineer with experience in sensors, micro-controllers, wearable devices, etc.
+        He also came with backend e-commerce analytics and cognitive skills. 
+      </p>
+      <p>
+        Delon spent 7 years in the UK for his studies and work before coming back to Hong Kong in 2016.
+        He holds a Bachelor's degree in Electrical and Electronic Engineering
+        from Imperial College London and a Master's degree in Computer Science from University College London.
+      </p>
+    </div>
     <div slot="abstract">
       <p>
       As exciting and mighty as artificial intelligence (A.I.) goes, only very few people know what it is or how to take advantage of.
