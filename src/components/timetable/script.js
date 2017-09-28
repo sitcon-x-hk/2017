@@ -76,7 +76,7 @@ export default {
         { divider: true },
         {
           title: 'A Glimpse of Data Science and How to Kick-start Your Cloud Career',
-          speaker: '(TBD)',
+          speaker: 'Dazi Cremonita',
           icon: '/2017/img/speaker/unknown.png',
           venue: 'LT 17',
           time: '14:30 - 15:15',
