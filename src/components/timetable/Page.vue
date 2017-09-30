@@ -7,6 +7,11 @@
           <template v-for="(session, index) in sessions">
             <v-divider v-if="session.divider" :key="index"></v-divider>
             <v-list-tile v-else-if="session.issue" :key="session.issue">
+              <a v-if="session.live" :href="session.live" target="_blank">
+                <v-list-tile-avatar>
+                  <v-icon class="primary white--text">play_arrow</v-icon>
+                </v-list-tile-avatar>
+              </a>
               <v-list-tile-content>
                 <v-list-tile-title>
                   {{ session.issue }}
