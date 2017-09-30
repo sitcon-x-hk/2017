@@ -3,7 +3,7 @@
     title="Welcome the Brand New Ruby-like Language - Goby"
     speaker="Maxwell"
     icon="/2017/img/speaker/maxwell.jpg"
-    time="16:45 - 17:30"
+    time="11:20 - 12:05"
     venue="LT 18"
     :tags="tags"
     language="English"
