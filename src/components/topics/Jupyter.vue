@@ -7,7 +7,7 @@
     time="15:45 - 16:30"
     :tags="tags"
     language="Cantonese"
-    live="https://www.youtube.com/embed/gq8BWAmnZX0"
+    live="https://www.youtube.com/watch?v=gq8BWAmnZX0"
   >
     <p slot="speaker">
        Currently working at Oursky. Ex-amazon software development engineer. Now working on open data and open source software.

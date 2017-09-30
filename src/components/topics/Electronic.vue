@@ -7,7 +7,7 @@
     time="16:45 - 17:30"
     :tags="tags"
     language="English"
-    live="https://www.youtube.com/embed/w8OjJVXwoMc"
+    live="https://www.youtube.com/watch?v=w8OjJVXwoMc"
   >
     <p slot="speaker">
       Sébastien is the founder and a director of M-Labs Ltd,

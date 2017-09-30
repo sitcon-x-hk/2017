@@ -7,7 +7,7 @@
     time="12:15 - 13:00"
     :tags="tags"
     language="English"
-    live="https://www.youtube.com/embed/8favjxhj7vs"
+    live="https://www.youtube.com/watch?v=/8favjxhj7vs"
   >
     <p slot="speaker">
       A Taiwanese Computer Engineering student studying at HKU.
