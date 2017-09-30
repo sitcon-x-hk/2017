@@ -7,6 +7,7 @@
     icon="/2017/img/speaker/unknown.png"
     :tags="tags"
     language="English"
+    live="https://www.youtube.com/embed/UVb1mCTNcKw"
   >
     <div slot="speaker">
       Dazi is the Product Marketing Manager at Microsoft Hong Kong, currently focusing in IoT, AI and Machine Learning.

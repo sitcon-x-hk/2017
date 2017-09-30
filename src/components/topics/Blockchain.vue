@@ -7,6 +7,7 @@
     time="16:45 - 17:30"
     :tags="tags"
     language="Cantonese"
+    live="https://www.youtube.com/embed/o3-19t3nFcY"
   >
     <div slot="speaker">
       <ul>
