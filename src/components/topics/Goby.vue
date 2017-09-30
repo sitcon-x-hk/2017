@@ -7,6 +7,7 @@
     venue="LT 18"
     :tags="tags"
     language="English"
+    live="https://www.youtube.com/embed/211a5wV55Zs"
   >
     <p slot="speaker">
       Ruby on Rails, ReactJS and RxJS developer.
