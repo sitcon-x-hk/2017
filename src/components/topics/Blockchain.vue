@@ -4,7 +4,7 @@
     speaker="Johnny Chiu"
     icon="/2017/img/speaker/johnny.jpg"
     venue="LT 18"
-    time="11:20 - 12:05"
+    time="16:45 - 17:30"
     :tags="tags"
     language="Cantonese"
   >
