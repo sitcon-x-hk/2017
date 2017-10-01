@@ -1,4 +1,9 @@
+import Live from './Live.vue';
+
 export default {
+  components: {
+    Live,
+  },
   props: {
     title: {
       type: String,
@@ -29,6 +34,9 @@ export default {
     language: {
       type: String,
       required: true,
+    },
+    live: {
+      type: String,
     },
   },
 };

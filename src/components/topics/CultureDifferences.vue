@@ -8,6 +8,7 @@
     venue="LT 18"
     :tags="tags"
     language="Cantonese / English"
+    live="https://www.youtube.com/watch?v=JSuDQAw8nME"
   >
     <p slot="speaker">
       Gary Kwong is a senior security engineer at Mozilla and a long-time member of its community.

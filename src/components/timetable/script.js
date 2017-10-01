@@ -19,6 +19,7 @@ export default {
           issue: 'Opening Ceremony',
           time: '10:00 - 10:25',
           venue: 'LT 17',
+          live: 'https://www.youtube.com/watch?v=b_cirznIrs4',
         },
         { divider: true },
         {
@@ -146,12 +147,14 @@ export default {
           issue: 'Lightning Talk',
           venue: 'LT 17',
           time: '17:45 - 18:00',
+          live: 'https://www.youtube.com/watch?v=grIV58Q-UKU',
         },
         { divider: true },
         {
           issue: 'Closing Ceremony',
           venue: 'LT 17',
           time: '18:00 - 18:30',
+          live: 'https://www.youtube.com/watch?v=grIV58Q-UKU',
         },
       ],
     };

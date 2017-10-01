@@ -7,6 +7,7 @@
     time="12:15 - 13:00"
     venue="LT 18"
     language="English"
+    live="https://www.youtube.com/watch?v=c32XtIpZqPo"
   >
     <p slot="speaker">
       Clara Chau is a software engineer currently running her own consultancy

@@ -21,6 +21,11 @@
       </v-layout>
       <v-layout row>
         <v-flex xs12>
+          <live v-if="live" :title="title" :url="live"></live>
+        </v-flex>
+      </v-layout>
+      <v-layout row>
+        <v-flex xs12>
           <v-card flat>
             <v-card-text class="px-0">
               <slot name="abstract"></slot>
