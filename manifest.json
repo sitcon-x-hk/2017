@@ -1,0 +1,34 @@
+{
+  "manifest_version": "2",
+  "name": "SITCON x HK 2017",
+  "short_name": "SITCON x HK 2017",
+  "description": "SITCON x HK, Hong Kong Student IT Conference, formed by students with passion in IT, a student-centered organisation hope to provide a stage for all Hong Kong students to express and develop their talent with Open Source. The theme of year 2017 is 'Exploration and Innovation', hoping to help students finding their way in IT industry.",
+  "lang": "en-GB",
+  "icons": [
+    {
+      "src": "/2017/img/icons/logo.png",
+      "sizes": "340x340",
+      "type": "image/png"
+    },
+    {
+      "src": "/2017/img/icons/logo-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/2017/img/icons/logo-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/2017/img/icons/logo-312x312.png",
+      "sizes": "312x312",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/2017/",
+  "scope": "/2017/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#9D1F25"
+}
