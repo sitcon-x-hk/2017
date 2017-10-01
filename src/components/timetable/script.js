@@ -152,7 +152,7 @@ export default {
         { divider: true },
         {
           issue: 'Closing Ceremony',
-          venue: 'LT 18',
+          venue: 'LT 17',
           time: '18:00 - 18:30',
           live: 'https://www.youtube.com/watch?v=grIV58Q-UKU',
         },
