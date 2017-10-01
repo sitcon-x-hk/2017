@@ -3,7 +3,7 @@
     title="Hands-on session – Machine Learning Studio"
     speaker="Delon Yau"
     icon="/2017/img/speaker/delonyau.jpg"
-    venue="LT 17"
+    venue="P4701"
     time="15:30 - 17:30"
     :tags="tags"
     language="English"
