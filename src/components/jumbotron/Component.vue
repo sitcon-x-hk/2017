@@ -14,6 +14,16 @@
           City University of Hong Kong
         </span>
       </div>
+      <div>
+        <v-btn class="red white--text" href="https://www.youtube.com/playlist?list=PLWGOKR8_-1tnxBxUprjXWUqwPx0KQ6ojK" target="_blank">
+          <v-icon dark left>fa-youtube-play</v-icon>
+          LT 17
+        </v-btn>
+        <v-btn class="red white--text" href="https://www.youtube.com/playlist?list=PLWGOKR8_-1tkU0n0EBQblTcwjJIN8a3WB" target="_blank">
+          <v-icon dark left>fa-youtube-play</v-icon>
+          LT 18
+        </v-btn>
+      </div>
     </v-layout>
   </div>
 </template>
